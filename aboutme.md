@@ -3,14 +3,44 @@ layout: page
 title: About me
 subtitle: Why you'd want to go on a date with me
 ---
+18/1/15 = Mon18/1/15 = Mon
 
-My name is Inigo Montoya. I have the following qualities:
+#####What is a stream ?
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+A *stream* is a sequence of data read from or written to an IO device.
 
-What else do you need?
+- It is to be processed in a sequential order over time (i.e. one by one);
+- It it to be interpreted in the format as the user wishes.
 
-### my history
+Consider
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+```C++
+int a;
+double b;
+char c;
+std::cin >> a;
+std::cin >> b;
+std::cin >> c;
+```
+
+Suppose we enter `1 1 1 ` , then the first 1 would be interpreted as an `int` , the second one a `double` , and the third one a `char` .
+
+#####From What to What ?
+
+Consider
+
+```c++
+std::string s1 = "Hello, ";
+std::string s2 = "World !";
+std::cout << s1 << s2;
+```
+
+
+| operator      | `<<`               | `>>`               |
+| :------------ | :----------------- | ------------------ |
+| name          | insertion          | extraction         |
+| reads         | *put to*           | *get from*         |
+| IO direction  | write to / output  | read from / input  |
+| syntax        | `ostream << src`   | `istream >> dest`  |
+| returns       | `ostream &`        | `istream &`        |
+| associativity | from left to right | from left to right |
