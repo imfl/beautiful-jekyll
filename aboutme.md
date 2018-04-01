@@ -3,7 +3,6 @@ layout: page
 title: About me
 subtitle: Why you'd want to go on a date with me
 ---
-18/1/15 = Mon18/1/15 = Mon
 
 #####What is a stream ?
 
@@ -34,7 +33,6 @@ std::string s1 = "Hello, ";
 std::string s2 = "World !";
 std::cout << s1 << s2;
 ```
-
 
 | operator      | `<<`               | `>>`               |
 | :------------ | :----------------- | ------------------ |
