@@ -201,8 +201,7 @@ th {
   }
   a,
   a:visited {
-    # FL made a change here
-    text-decoration: none;
+    text-decoration: underline;
   }
   a[href]:after {
     content: " (" attr(href) ")";
