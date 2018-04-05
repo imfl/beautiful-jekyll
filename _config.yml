@@ -31,7 +31,7 @@ navbar-links:
     - Parallel Computing: "https://github.com/imfl/"
     - Derivative Pricing: "https://github.com/imfl/"
     - Investment Strategies: "https://github.com/imfl/"
-  Notes:
+  Snippets:
     - Financial Mathmetics: "https://github.com/imfl/"
     - Algorithms: "https://github.com/imfl/"
   About Me: "aboutme"
@@ -244,7 +244,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
-# theme: jekyll-theme-cayman
-
-theme: jekyll-theme-cayman
