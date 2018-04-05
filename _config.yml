@@ -24,7 +24,7 @@ title: I'm FL
 # List of links in the navigation bar
 navbar-links:
   Home: "https://imfl.github.io/"
-  Projects: "projects"
+  Projects:
     - Projects: "projects"
     - GitHub: "https://github.com/imfl/"
     - Resume: "resume"
