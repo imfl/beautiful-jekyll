@@ -36,7 +36,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/fl.png"
+avatar: "/img/fl-c.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -50,7 +50,8 @@ navbar-col: "#F5F5F5"
 navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
-link-col: "#008AFF"
+# link-col: "#008AFF"
+link-col: "#404040"
 hover-col: "#0085A1"
 footer-col: "#F5F5F5"
 footer-text-col: "#777777"
@@ -68,7 +69,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: FL
+  name: Fu Lei
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
