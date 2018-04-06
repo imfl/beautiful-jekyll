@@ -1,16 +1,12 @@
-![demo](demo.gif)
-
-*A demo of code. Note how fast the optimized algorithms are, compared with brutal force. Over 95% of the entries are skipped.* <a name="user-content-introducing-dynamic-time-warping-distance-into-matrix-profile"></a>
-
 ## Introducing Dynamic Time Warping Distance into Matrix Profile
 
-*This repository is about an academic project on time series data mining.* 
+*an academic project on time series data mining.*
 
-- For instructions on how to compile and use the code for this project, click [here](#user-content-instructions).
+![demo](demo.gif)
 
-- For an abstract and emprical results of this project, click [here](#user-content-summary).
+*A demo of code. Note how fast the optimized algorithms are, compared with brutal force. Over 95% of the entries are skipped.*
 
-- For more information about this project, click [here](#user-content-more-information).
+- For the C++ code for this project, click [here](https://github.com/imfl/data-minin) to visit the GitHub repository.
 
 ---
 
@@ -34,13 +30,11 @@ My originalities are
 
 ### Instructions
 
-The instructions on how to compile and use my code, and a full description of every source file and the dataset are [here](README.pdf) (PDF). <a name="user-content-summary"></a>
+The instructions on how to compile and use my code, and a full description of every source file and the dataset are [here](README.pdf) (PDF).
 
 ### Summary
 
 An abstract of this project is [here](summary/abstract.pdf) (PDF).
-
-<a name="user-content-more-information"></a>
 
 The empirical results are [here](summary/results.pdf) (PDF).
 
@@ -52,6 +46,4 @@ This project was supervised by [Prof. Raymond Wong](https://www.cse.ust.hk/~rayw
 
 I am responsible for any errors and shortcomings in the algorithms and the code.
 
-For more of my projects, please visit my [GitHub pages](https://imfl.github.io).
-
-[Back to Top](#user-content-introducing-dynamic-time-warping-distance-into-matrix-profile)
+For the C++ code for this project, click [here](https://github.com/imfl/data-minin) to visit the GitHub repository.
