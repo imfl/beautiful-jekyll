@@ -6,11 +6,11 @@ subtitle: an academic project that mines time series data
 
 ## Introducing Dynamic Time Warping Distance into Matrix Profile
 
-- For the C++ code for this project, please click [here](https://github.com/imfl/data-mining) to visit the GitHub repository.
-
 ![demo](demo.gif)
 
 *A demo of code. Note how fast the optimized algorithms are, compared with brutal force. Over 95% of the entries are skipped.*
+
+- To view the C++ code in the GitHub repository, click [here](https://github.com/imfl/data-mining).
 
 ---
 
