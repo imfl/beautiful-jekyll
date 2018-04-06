@@ -1,8 +1,8 @@
 ![demo](demo.gif)
 
-<a name="user-content-introducing-dynamic-time-warping-distance-into-matrix-profile"></a>
-
 *A demo of code. Note how fast the optimized algorithms are, compared with brutal force. Over 95% of the entries are skipped.*
+
+<a name="user-content-introducing-dynamic-time-warping-distance-into-matrix-profile"></a>
 
 ## Introducing Dynamic Time Warping Distance into Matrix Profile
 
@@ -31,26 +31,26 @@ The main challenge is -- the time complexity for computing both MP and DTW are h
 
 My originalities are
 
-<a name="user-content-instructions"></a>
-
 1. adapting lower bound functions and using them to skip many unnecessary computations
 2. applying randomized local search within each column of the matrix
 
-### Instructions
 
- <a name="user-content-summary"></a>
+
+### Instructions <a name="user-content-instructions"></a>
+
+
 
 The instructions on how to compile and use my code, and a full description of every source file and the dataset are [here](README.pdf) (PDF).
 
-### Summary
+### Summary  <a name="user-content-summary"></a>
 
-<a name="user-content-more-information"></a>
+
 
 An abstract of this project is [here](summary/abstract.pdf) (PDF).
 
 The empirical results are [here](summary/results.pdf) (PDF).
 
-### More Information
+### More Information <a name="user-content-more-information"></a>
 
 This project is an academic project that I did together with Lee Yik-Yeung, for [*COMP5331: Knowledge Discovery in Databases*](https://www.cse.ust.hk/~raywong/comp5331/), a PhD-level course that I took at the CS department at HKUST in Fall 2017.
 
