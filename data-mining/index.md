@@ -1,7 +1,7 @@
 ---
 layout: page
 title: data mining
-subtitle: an academic project that mines time series data
+subtitle: in an effort to bring down time complexity
 ---
 
 ![demo](demo.gif)
