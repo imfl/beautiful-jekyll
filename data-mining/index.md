@@ -1,9 +1,6 @@
 ---
-title: project: data mining
-subtitle: Introducing Dynamic Time 
 ---
 
-that
 - For the C++ code for this project, please click [here](https://github.com/imfl/data-mining) to visit the GitHub repository.
 
 ![demo](demo.gif)
