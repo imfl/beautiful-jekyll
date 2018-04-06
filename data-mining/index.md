@@ -1,13 +1,11 @@
 ---
-title: Contact me
-subtitle: Here you'll find all the ways to get in touch with me
+title: Projects
+subtitle: what i cannot create i do not understand
 ---
 
 ## Introducing Dynamic Time Warping Distance into Matrix Profile
 
-*an academic project on time series data mining.*
-
-- For the C++ code for this project, please click [here](https://github.com/imfl/data-minin) to visit the GitHub repository.
+- For the C++ code for this project, please click [here](https://github.com/imfl/data-mining) to visit the GitHub repository.
 
 ![demo](demo.gif)
 
