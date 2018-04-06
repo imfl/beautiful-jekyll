@@ -8,7 +8,7 @@ subtitle: in an effort to bring down time complexity
 
 *A demo of code. Note how fast the optimized algorithms are, compared with brutal force. Over 95% of the entries are skipped.*
 
-- For the C++ code, click [here](https://github.com/imfl/data-mining) (GitHub).
+- For the C++ code for this project, click [here](https://github.com/imfl/data-mining) (GitHub).
 
 ---
 
@@ -46,4 +46,4 @@ This project was supervised by [Prof. Raymond Wong](https://www.cse.ust.hk/~rayw
 
 I am responsible for any errors and shortcomings in the algorithms and the code.
 
-- For the C++ code, click [here](https://github.com/imfl/data-mining) (GitHub).
+- For the C++ code for this project, click [here](https://github.com/imfl/data-mining) (GitHub).
