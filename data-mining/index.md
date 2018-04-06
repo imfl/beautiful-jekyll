@@ -32,10 +32,6 @@ My originalities are
 1. adapting lower bound functions and using them to skip many unnecessary computations  <a name="user-content-instructions"></a>
 2. applying randomized local search within each column of the matrix
 
-### Instructions
-
-The instructions on how to compile and use my code, and a full description of every source file and the dataset are [here](README.pdf) (PDF).
-
 ### Summary
 
 An abstract of this project is [here](summary/abstract.pdf) (PDF).
