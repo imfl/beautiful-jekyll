@@ -23,7 +23,7 @@ In Step 1, the current setting uses the traditional Euclidean distance to measur
 
 ![dtw](dtw.png)
 
-*DTW is sharp in detecting similarity even if certain parts of a curve have been stretched or squeezed.*
+*DTW is sharp in detecting similarity even if a curve has been stretched or squeezed.*
 
 As an initial attempt in the academic community, I introduced DTW into MP.
 
