@@ -31,7 +31,7 @@ The main challenge is --- the time complexity for computing both MP and DTW are 
 
 ![dtw-dp](dtw-dp.png)
 
-*Calculating DTW between two sequences involves dynamic programming.*
+*Calculating DTW involves dynamic programming.*
 
 My originalities are
 
