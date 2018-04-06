@@ -1,7 +1,7 @@
 ---
 layout: page
 title: data mining
-subtitle: a project in an effort to bring down time complexity
+subtitle: in an effort to bring down time complexity
 ---
 
 ![demo](demo.gif)
