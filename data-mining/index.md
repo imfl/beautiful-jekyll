@@ -1,4 +1,4 @@
-![demo](image/demo.gif)
+![demo](https://github.com/imfl/data-mining/tree/master/demo/demo.gif)
 
 *A demo of code. Note how fast the optimized algorithms are, compared with brutal force. Over 95% of the entries are skipped.*
 
