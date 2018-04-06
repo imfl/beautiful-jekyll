@@ -1,18 +1,18 @@
 ---
 layout: page
-title: Data Mining
+title: data mining
 subtitle: an academic project that mines time series data
 ---
-
-## Introducing Dynamic Time Warping Distance into Matrix Profile
 
 ![demo](demo.gif)
 
 *A demo of code. Note how fast the optimized algorithms are, compared with brutal force. Over 95% of the entries are skipped.*
 
-- To view the C++ code in the GitHub repository, click [here](https://github.com/imfl/data-mining).
+- For the C++ code, click [here](https://github.com/imfl/data-mining) (GitHub).
 
 ---
+
+## Introducing Dynamic Time Warping Distance into Matrix Profile
 
 Matrix Profile (MP) has emerged as a new concept in the data mining community since 2016. It is a framework to extract information from time series, which later can be applied in similarity research. Two steps are involved:
 
@@ -50,4 +50,4 @@ This project was supervised by [Prof. Raymond Wong](https://www.cse.ust.hk/~rayw
 
 I am responsible for any errors and shortcomings in the algorithms and the code.
 
-For the C++ code for this project, please click [here](https://github.com/imfl/data-minin) to visit the GitHub repository.
+- For the C++ code, click [here](https://github.com/imfl/data-mining) (GitHub).
