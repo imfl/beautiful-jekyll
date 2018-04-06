@@ -18,7 +18,7 @@ use-site-title: true
         </span>
         <h4>{{- gh-project -}}</h4>
         <hr class="seperator">
-        <p class="text-muted">an academic project on time series data mining</p>
+        <p class="text-muted">An academic project that speeds up time series data mining</p>
         <hr class="seperator">
       </a>
     </div>
@@ -26,14 +26,15 @@ use-site-title: true
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
       {%- assign gh-project = "Parallel Computing" -%}
-      <a target="_blank" href="https://github.com/{{- gh-user -}}/parallel" class="project-link" title="Go to Github Poject Page">
+      {%- assign gh-repo = "parallel-computing" -%}
+      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-repo -}}" class="project-link" title="">
         <span class="fa-stack fa-4x">
           <i class="fa fa-circle fa-stack-2x stack-color"></i>
           <i class="fa fa-bars fa-stack-1x fa-inverse"></i>
         </span>
         <h4>{{- gh-project -}}</h4>
         <hr class="seperator">
-        <p class="text-muted">Parallel implementations of Bellman-Ford algorithm: with MPI, OMP, and CUDA.</p>
+        <p class="text-muted">Parallel implementations of Bellman-Ford algorithm in multiple paradigms</p>
         <hr class="seperator">
       </a>
     </div>
