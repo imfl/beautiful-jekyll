@@ -9,14 +9,15 @@ use-site-title: true
     <div class="project-card">
       {%- assign gh-user = "imfl"-%}
       {%- assign gh-project = "Data Mining" -%}
-      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
+      {%- assign gh-repo = "data-mining" -%}
+      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-repo -}}" class="project-link" title="Go to Github Repository">
         <span class="fa-stack fa-4x">
           <i class="fa fa-circle fa-stack-2x stack-color"></i>
           <i class="fa fa-search fa-stack-1x fa-inverse"></i>
         </span>
         <h4>{{- gh-project -}}</h4>
         <hr class="seperator">
-        <p class="text-muted">an academic project for time series data mining</p>
+        <p class="text-muted">an academic project for data mining on time series</p>
         <hr class="seperator">
       </a>
     </div>
