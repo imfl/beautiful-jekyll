@@ -2,6 +2,8 @@
 
 *A demo of code. Note how fast the optimized algorithms are, compared with brutal force. Over 95% of the entries are skipped.*
 
+<a name="user-content-introducing-dynamic-time-warping-distance-into-matrix-profile"></a>
+
 ## Introducing Dynamic Time Warping Distance into Matrix Profile
 
 *This repository is about an academic project on time series data mining.* 
@@ -53,7 +55,3 @@ I am responsible for any errors and shortcomings in the algorithms and the code.
 For more of my projects, please visit my [GitHub pages](https://imfl.github.io).
 
 [Back to Top](#user-content-introducing-dynamic-time-warping-distance-into-matrix-profile)
-
-Take me to [pookie](#pookie)
-
-<a name="pookie"></a>
