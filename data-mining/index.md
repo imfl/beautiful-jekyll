@@ -1,9 +1,7 @@
 ---
-title: projects
-subtitle: what i cannot create i do not understand
+title: project: data mining
+subtitle: Introducing Dynamic Time Warping Distance into Matrix Profile
 ---
-
-### Introducing Dynamic Time Warping Distance into Matrix Profile
 
 - For the C++ code for this project, please click [here](https://github.com/imfl/data-mining) to visit the GitHub repository.
 
@@ -31,17 +29,17 @@ My originalities are
 1. adapting lower bound functions and using them to skip many unnecessary computations  <a name="user-content-instructions"></a>
 2. applying randomized local search within each column of the matrix
 
-#### Instructions
+### Instructions
 
 The instructions on how to compile and use my code, and a full description of every source file and the dataset are [here](README.pdf) (PDF).
 
-#### Summary
+### Summary
 
 An abstract of this project is [here](summary/abstract.pdf) (PDF).
 
 The empirical results are [here](summary/results.pdf) (PDF).
 
-#### More Information 
+### More Information 
 
 This project is an academic project that I did together with Lee Yik-Yeung, for [*COMP5331: Knowledge Discovery in Databases*](https://www.cse.ust.hk/~raywong/comp5331/), a PhD-level course that I took at the CS department at HKUST in Fall 2017.
 
