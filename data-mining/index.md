@@ -38,9 +38,9 @@ My originalities are
 
 ### Summary
 
-An abstract of this project is [here](summary/abstract.pdf) (PDF).
+An abstract of this project is [here](https://github.com/imfl/data-mining/tree/master/summary/abstract.pdf) (PDF).
 
-The empirical results are [here](summary/results.pdf) (PDF).
+The empirical results are [here](https://github.com/imfl/data-mining/tree/master/summary/results.pdf) (PDF).
 
 ### More Information 
 
