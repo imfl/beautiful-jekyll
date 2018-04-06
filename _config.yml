@@ -25,7 +25,7 @@ description: Fu Lei's site
 navbar-links:
   Home: "https://imfl.github.io/"
   Projects:
-    - Date Mining: "https://github.com/imfl/data-mining"
+    - Date Mining: "https://imfl.github.io/data-mining/index"
     - Parallel Computing: "https://github.com/imfl/parallel-computing"
     - Derivative Pricing: "https://github.com/imfl/derivative-pricing"
     - Investment Strategies: "https://github.com/imfl/investment-strategies"
