@@ -1,8 +1,6 @@
 ![demo](demo.gif)
 
-<a name="user-content-introducing-dynamic-time-warping-distance-into-matrix-profile"></a>
-
-*A demo of code. Note how fast the optimized algorithms are, compared with brutal force. Over 95% of the entries are skipped.*
+*A demo of code. Note how fast the optimized algorithms are, compared with brutal force. Over 95% of the entries are skipped.* <a name="user-content-introducing-dynamic-time-warping-distance-into-matrix-profile"></a>
 
 ## Introducing Dynamic Time Warping Distance into Matrix Profile
 
@@ -36,9 +34,7 @@ My originalities are
 
 ### Instructions
 
-<a name="user-content-summary"></a>
-
-The instructions on how to compile and use my code, and a full description of every source file and the dataset are [here](README.pdf) (PDF).
+The instructions on how to compile and use my code, and a full description of every source file and the dataset are [here](README.pdf) (PDF). <a name="user-content-summary"></a>
 
 ### Summary
 
