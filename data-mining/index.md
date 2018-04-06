@@ -10,8 +10,6 @@ subtitle: in an effort to bring down time complexity
 
 - For the C++ code for this project, click [here](https://github.com/imfl/data-mining) (GitHub).
 
----
-
 ## Introducing Dynamic Time Warping Distance into Matrix Profile
 
 Matrix Profile (MP) has emerged as a new concept in the data mining community since 2016. It is a framework to extract information from time series, which later can be applied in similarity research. Two steps are involved:
