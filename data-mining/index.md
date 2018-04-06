@@ -2,6 +2,8 @@
 layout: page
 title: data mining
 subtitle: in an effort to bring down time complexity
+use-site-title: true
+gh-repo: data-mining
 ---
 
 ![demo](demo.gif)
