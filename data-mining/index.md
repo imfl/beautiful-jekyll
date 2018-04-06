@@ -1,4 +1,5 @@
 ---
+title: Data Mining
 ---
 
 - For the C++ code for this project, please click [here](https://github.com/imfl/data-mining) to visit the GitHub repository.
@@ -20,7 +21,7 @@ In Step 1, the current setting uses the traditional Euclidean distance to measur
 
 As an initial attempt in the academic community, I introduced DTW into MP.
 
-The main challenge is -- the time complexity for computing both MP and DTW are heavy themselves, making the combination of the two intimidatingly expensive.
+The main challenge is --- the time complexity for computing both MP and DTW are heavy themselves, making the combination of the two intimidatingly expensive.
 
 My originalities are
 
