@@ -1,6 +1,6 @@
-<a name="user-content-introducing-dynamic-time-warping-distance-into-matrix-profile"></a>
-
 ![demo](demo.gif)
+
+<a name="user-content-introducing-dynamic-time-warping-distance-into-matrix-profile"></a>
 
 *A demo of code. Note how fast the optimized algorithms are, compared with brutal force. Over 95% of the entries are skipped.*
 
@@ -29,22 +29,22 @@ As an initial attempt in the academic community, I introduced DTW into MP.
 
 The main challenge is -- the time complexity for computing both MP and DTW are heavy themselves, making the combination of the two intimidatingly expensive.
 
-<a name="user-content-instructions"></a>
-
 My originalities are
+
+<a name="user-content-instructions"></a>
 
 1. adapting lower bound functions and using them to skip many unnecessary computations
 2. applying randomized local search within each column of the matrix
 
- <a name="user-content-summary"></a>
-
 ### Instructions
+
+ <a name="user-content-summary"></a>
 
 The instructions on how to compile and use my code, and a full description of every source file and the dataset are [here](README.pdf) (PDF).
 
- <a name="user-content-more-information"></a>
-
 ### Summary
+
+<a name="user-content-more-information"></a>
 
 An abstract of this project is [here](summary/abstract.pdf) (PDF).
 
