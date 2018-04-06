@@ -29,7 +29,7 @@ navbar-links:
     - Parallel Computing: "https://github.com/imfl/parallel-computing"
     - Derivative Pricing: "https://github.com/imfl/derivative-pricing"
     - Investment Strategies: "https://github.com/imfl/investment-strategies"
-  Snippets:
+  Notes:
     - Financial Mathmetics: "https://github.com/imfl/financial-mathematics"
     - Algorithms: "https://github.com/imfl/algorithms"
   About Me: "aboutme"
