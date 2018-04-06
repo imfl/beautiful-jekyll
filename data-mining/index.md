@@ -1,6 +1,10 @@
 ---
+layout: page
 title: Data Mining
+subtitle: an academic project that mines time series data
 ---
+
+## Introducing Dynamic Time Warping Distance into Matrix Profile
 
 - For the C++ code for this project, please click [here](https://github.com/imfl/data-mining) to visit the GitHub repository.
 
