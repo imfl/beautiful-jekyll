@@ -11,3 +11,5 @@ use-site-title: true
 {% include lib/mathjax.html %}
 
 $R^2$
+
+Financial mathematics
