@@ -21,4 +21,7 @@ An implementation of K-means in C to solve the following classroom question.
 >4.  If k = 4 and the initial means are (60, 51), (60, 80), (53, 60) and (65, 60), what is the output of the algorithm? 
 >
 
-For the C code, click [here] (GitHub).
+For the C code, click [here][kmeans] (GitHub).
+
+[kmeans]: https://github.com/imfl/c-snippets/blob/master/data-mining/kmeans.c	"Go to GitHub Repository"
+
