@@ -6,6 +6,6 @@ use-site-title: true
 
 {% include mathjax.html %}
 
-$R^2$
+$$R^2$$
 
 Financial mathematics
