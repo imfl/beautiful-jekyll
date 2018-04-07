@@ -27,8 +27,8 @@ navbar-links:
   Projects:
     - Date Mining: "https://imfl.github.io/data-mining/index"
     - Parallel Computing: "https://imfl.github.io/parallel-computing/index"
-    - Derivative Pricing: "https://imfl.github.io/derivative-pricing/index"
-    - Investment Strategies: "https://imfl.github.io/investment-strategies/index"
+    - Derivative Pricing: "https://github.com/imfl/derivative-pricing"
+    - Investment Strategies: "https://github.com/imfl/investment-strategies"
   Notes:
     - Financial Mathmetics: "https://imfl.github.io/financial-mathmetics/index"
     - Algorithms: "https://imfl.github.io/algorithms/index"
