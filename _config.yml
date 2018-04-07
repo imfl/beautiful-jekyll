@@ -30,7 +30,7 @@ navbar-links:
     - Derivative Pricing: "https://github.com/imfl/derivative-pricing"
     - Investment Strategies: "https://github.com/imfl/investment-strategies"
   Notes:
-    - Financial Mathmetics: "https://imfl.github.io/financial-mathmetics/index"
+    - Financial Mathmetics: "https://imfl.github.io/financial-mathematics/index"
     - Algorithms: "https://imfl.github.io/algorithms/index"
   About Me: "aboutme"
 
