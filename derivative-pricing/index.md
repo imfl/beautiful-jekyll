@@ -1,6 +1,6 @@
 ---
 layout: page
-title: derivative
+title: derivative pricing
 subtitle: to price in multiple settings
 use-site-title: true
 ---
