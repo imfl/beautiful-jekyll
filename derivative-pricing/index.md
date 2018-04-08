@@ -53,6 +53,8 @@ This project serves as an assignment that I did for *MAFS5040 Quantitative Metho
 
 ## 4. Building a classical binomial tree
 
+![pricer](pricer.png)
+
 The Java code is [here](https://github.com/imfl/derivative-pricing/tree/master/binomial-tree/sol) (GitHub).
 
 ### More Information
