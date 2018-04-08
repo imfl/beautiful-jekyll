@@ -22,10 +22,10 @@ We also discuss using statistical techniques, such as skewness, kurtosis, and va
 
 ### More Information 
 
-This project is an academic project that I did together with [Wei Jian](https://jesseweifj.github.io) and Xing Siyu, for [*MAFS 6010K Algorithmic Quantitative Finance*](http://cting.x10host.com/AQF/AQF.html), a postgraduate-level financial mathematics course that I took at the Math department at HKUST in Summer 2017.
+This project is an academic project that I did together with Wei Jian and Xing Siyu, for [*MAFS 6010K Algorithmic Quantitative Finance*](http://cting.x10host.com/AQF/AQF.html), a master-level course that I took at the Math department at HKUST in Summer 2017.
 
-This project was supervised by [Prof. Christopher Ting](http://www.mysmu.edu/faculty/christophert/index.html) from the Singapore Management University.
+This project was supervised by Prof. Christopher Ting from the Singapore Management University.
 
-I am responsible for designing most of the algorithms, and for implmenting the HMM using R.
+I am responsible for designing most of the algorithms, and for implmenting the HMM part using R (with `depmixS4` pacakge).
 
 - For the R code for this project, click [here](https://github.com/imfl/investment-strategies) (GitHub).
