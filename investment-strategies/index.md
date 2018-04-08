@@ -24,7 +24,7 @@ Two steps are involved:
 1. detect the stage of the cycle
 2. quantify the descriptive recommendations such as strong buy, neutral and sell
 
-![decisions](decisions-medium.png)
+![decisions](decisions.png)
 
 *A summary of buy-or-sell recommendations that investment theory gives for a sector given the stage it is in a business cycle. Green for buy, red for sell.*
 
