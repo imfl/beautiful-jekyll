@@ -28,9 +28,9 @@ We also discuss using statistical techniques, such as skewness, kurtosis, and va
 
 A presentation of this project is here (PDF).
 
-A report of this project is here (PDF) [id][*]
+A report of this project is here (PDF) <sup>*</sup>.
 
-[*]: Results are different because we improved our results after presentation
+* Results in the presentation and the report are different because we made some improvements in between.
 
 ### More Information 
 
