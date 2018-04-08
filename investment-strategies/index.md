@@ -26,7 +26,7 @@ Two steps are involved:
 
 ![decisions](decisions.png)
 
-*A summary of buy-or-sell recommendations that investment theory gives for a sector given the stage it is in a business cycle.*
+*A summary of buy-or-sell recommendations that investment theory gives for a sector given the stage it is in a business cycle. Green for buy, red for sell.*
 
 Techniques we have applied include:
 
