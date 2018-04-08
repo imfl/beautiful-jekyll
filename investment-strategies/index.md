@@ -34,7 +34,7 @@ Techniques we have applied include:
 
 ![moving](v.moving.png)
 
-*A series of moving-window guesses using Hidden Markov Model: What is the probability that we are now in regime boom / reigim bust?*
+*A series of moving-window guesses using HMM: What is the probability that we are now in regime boom / reigim bust?*
 
 We also discuss using statistical techniques, such as skewness, kurtosis, and variance ratio tests, for ﬁne-tuning our strategy.
 
@@ -54,4 +54,4 @@ This project was supervised by Prof. Christopher Ting from the Singapore Managem
 
 I am responsible for designing most of the algorithms, and for implmenting the HMM part using R (with `depmixS4` pacakge).
 
-- For the R code and related data, click [here](https://github.com/imfl/investment-strategies) (GitHub).
+- For the R code and related data for HMM, click [here](https://github.com/imfl/investment-strategies) (GitHub).
