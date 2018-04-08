@@ -22,7 +22,7 @@ We also discuss using statistical techniques, such as skewness, kurtosis, and va
 
 ### More Information 
 
-This project is an academic project that I did together with Wei Jian and Xing Siyu, for [*MAFS 6010K Algorithmic Quantitative Finance*](http://cting.x10host.com/AQF/AQF.html), a master-level course that I took at the Math department at HKUST in Summer 2017.
+This project is an academic project that I did together with Wei Jian and Xing Siyu, for [*MAFS 6010K Algorithmic Quantitative Finance*](http://cting.x10host.com/AQF/AQF.html), a postgraduate-level course that I took at the Math department at HKUST in Summer 2017.
 
 This project was supervised by Prof. Christopher Ting from the Singapore Management University.
 
