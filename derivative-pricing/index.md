@@ -19,7 +19,7 @@ The C code to price the strutured product is [here](https://github.com/imfl/deri
 
 ### More Information 
 
-This project serves as a computer assignment that I did with Xue Sidan, for [*MAFS 5250 Computational Methods for Pricing Structured Products*](https://www.math.ust.hk/~maykwok/MAFS5250.htm), a postgraduate-level course that I took at the Math Dept. at HKUST in Spring 2017. This course is lectured by Prof. Yue-kuen Kwok. I am responsible for the design and implementation as well as the code.
+This project serves as a computer assignment that I did with Xue Sidan, for [*MAFS 5250 Computational Methods for Pricing Structured Products*](https://www.math.ust.hk/~maykwok/MAFS5250.htm), a postgraduate-level course that I took at the Math Dept. at HKUST in Spring 2017. This course is lectured by Prof. Yue-kuen Kwok. I am responsible for the code.
 
 - For the C code for this project, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
 
@@ -29,13 +29,11 @@ This project serves as a computer assignment that I did with Xue Sidan, for [*MA
 
 The details of the financial derivative are [here](https://github.com/imfl/derivative-pricing/tree/master/fully-implicit-finite-difference/que.pdf) (PDF).
 
-The Java code to price the strutured product is [here](https://github.com/imfl/derivative-pricing/blob/master/fully-implicit-finite-difference) (GitHub).
+The Java code to price the strutured product is [here](https://github.com/imfl/derivative-pricing/blob/master/fully-implicit-finite-difference/sol/src) (GitHub).
 
 ### More Information
 
-This project serves as a computer assignment that I did with Xue Sidan, for [*MAFS 5250 Computational Methods for Pricing Structured Products*](https://www.math.ust.hk/~maykwok/MAFS5250.htm), a postgraduate-level course that I took at the Math Dept. at HKUST in Spring 2017. This course is lectured by Prof. Yue-kuen Kwok. I am responsible for the code.
-
-- For the Java code for this project, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
+This project serves as a computer assignment that I did with Xue Sidan, for [*MAFS 5250 Computational Methods for Pricing Structured Products*](https://www.math.ust.hk/~maykwok/MAFS5250.htm), a postgraduate-level course that I took at the Math Dept. at HKUST in Spring 2017. This course is lectured by Prof. Yue-kuen Kwok. I am responsible for the design and implementation as well as the code.
 
 ## 3. Pricing an option on bond
 
