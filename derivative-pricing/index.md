@@ -9,6 +9,8 @@ use-site-title: true
 
 *A demo of code for Project 1. Note how fast it is. Without a carefully designed data structure, it could take quite a few minutes.*
 
+- For the C and Java code for these projects, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
+
 ## 1. Pricing a derivative whose payoff is linked with two stocks
 
 *using a two-state lattice tree with forward shooting grid (FSG) techinique*
@@ -29,7 +31,7 @@ This project serves as a computer assignment that I did with Xue Sidan, for [*MA
 
 The details of the financial derivative are [here](https://github.com/imfl/derivative-pricing/tree/master/fully-implicit-finite-difference/que.pdf) (PDF).
 
-The Java code to price the strutured product is [here](https://github.com/imfl/derivative-pricing/blob/master/fully-implicit-finite-difference/sol/src) (GitHub).
+The Java code to price the strutured product is [here](https://github.com/imfl/derivative-pricing/blob/master/fully-implicit-finite-difference/sol) (GitHub).
 
 ### More Information
 
@@ -51,10 +53,10 @@ This project serves as an assignment that I did for *MAFS5040 Quantitative Metho
 
 ## 4. Building a classical binomial tree
 
+The Java code to build the classical Cox, Ross and Rubinstein (CRR) binomial tree is [here](https://github.com/imfl/derivative-pricing/tree/master/binomial-tree/sol) (GitHub).
+
 ### More Information
 
 This project serves as an assignment that I did for *MAFS 5260 : Building Financial Applications with Java and VBA*, a postgraduate-level course that I took at the Math Dept. at HKUST in Spring 2017. This course is lectured by Dr. Chung-dak Shum. I am responsible for the code.
 
-- For the Java code for this project, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
-
-
+- For the C and Java code for these projects, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
