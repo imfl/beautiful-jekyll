@@ -9,11 +9,13 @@ use-site-title: true
 
 *A demo of code for Project 1. Note how fast it is. Without a carefully designed data structure, it could take quite a few minutes.*
 
-- For the C and Java code for the projects, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
-
 ## 1. Pricing a derivative whose return is linked with two stocks
 
 *using lattice tree method with forward shooting grid (FSG) techinique*
+
+The details of the financial derivative is [here](https://github.com/imfl/derivative-pricing/tree/master/two-state-lattice-fsg/que.pdf) (PDF).
+
+The C code to price the strutured product is [here](https://github.com/imfl/derivative-pricing/blob/master/two-state-lattice-fsg/sol.c).
 
 ### More Information 
 
