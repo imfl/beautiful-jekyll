@@ -9,11 +9,11 @@ use-site-title: true
 
 *A demo of code for Project 1. Note how fast it is. Without a carefully designed data structure, it could take quite a few minutes.*
 
-## 1. Pricing a derivative whose return is linked with two stocks
+## 1. Pricing a derivative whose payoff is linked with two stocks
 
-*using lattice tree method with forward shooting grid (FSG) techinique*
+*using a two-state lattice tree with forward shooting grid (FSG) techinique*
 
-The details of the financial derivative is [here](https://github.com/imfl/derivative-pricing/tree/master/two-state-lattice-fsg/que.pdf) (PDF).
+The details of the financial derivative are [here](https://github.com/imfl/derivative-pricing/tree/master/two-state-lattice-fsg/que.pdf) (PDF).
 
 The C code to price the strutured product is [here](https://github.com/imfl/derivative-pricing/blob/master/two-state-lattice-fsg/sol.c) (GitHub).
 
@@ -26,6 +26,10 @@ This project serves as a computer assignment that I did with Xue Sidan, for [*MA
 ## 2. Pricing participating life insurance policies
 
 *using fully implicit finite difference scheme*
+
+The details of the financial derivative are [here](https://github.com/imfl/derivative-pricing/tree/master/fully-implicit-finite-difference/que.pdf) (PDF).
+
+The Java code to price the strutured product is [here](https://github.com/imfl/derivative-pricing/blob/master/fully-implicit-finite-difference) (GitHub).
 
 ### More Information
 
