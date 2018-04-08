@@ -9,6 +9,8 @@ use-site-title: true
 
 *Detecting which stage Hong Kong economy is in using Hidden Markov Model (HMM).*
 
+- For the R code and related data for HMM, click here (GitHub).
+
 ## A Sector Rotation Trading Strategy
 
 We design and implement a sector rotation trading strategy in Hong Kong Stock Market.
