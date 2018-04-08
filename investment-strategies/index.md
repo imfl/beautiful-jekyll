@@ -40,11 +40,11 @@ We also discuss using statistical techniques, such as skewness, kurtosis, and va
 
 ### Summary
 
-A presentation of this project is [here](https://github.com/imfl/investment-strategies/blob/master/summary/slides.pdf) (PDF).
+The presentation slides for this project are [here](https://github.com/imfl/investment-strategies/blob/master/summary/slides.pdf) (PDF).
 
-A report of this project is [here](https://github.com/imfl/investment-strategies/blob/master/summary/report.pdf) (PDF) <sup>1</sup>.
+The report of this project is [here](https://github.com/imfl/investment-strategies/blob/master/summary/report.pdf) (PDF) <sup>1</sup>.
 
-<sup>1</sup> Results in the presentation and the report are slightly different since we've made some improvements in between.
+<sup>1</sup> Figures in the presentation and the report are slightly different since we've made some improvements in between.
 
 ### More Information 
 
