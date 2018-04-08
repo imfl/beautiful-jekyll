@@ -34,7 +34,7 @@ Techniques we have applied include:
 
 ![moving](v.moving.png)
 
-*A series of moving-window guesses using HMM: What is the probability that we are now in regime boom / reigim bust?*
+*A series of moving-window guesses using HMM: What is the probability that we are now in regime boom / regime bust?*
 
 We also discuss using statistical techniques, such as skewness, kurtosis, and variance ratio tests, for ﬁne-tuning our strategy.
 
