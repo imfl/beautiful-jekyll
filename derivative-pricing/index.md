@@ -17,7 +17,7 @@ use-site-title: true
 
 ### More Information 
 
-This project is a computer assignments that I did with Xue Sidan, for [*MAFS 5250 Computational Methods for Pricing Structured Products*](https://www.math.ust.hk/~maykwok/MAFS5250.htm), a postgraduate-level course that I took at the Math Dept. at HKUST in Summer 2017.
+This project serves as a computer assignment that I did with Xue Sidan, for [*MAFS 5250 Computational Methods for Pricing Structured Products*](https://www.math.ust.hk/~maykwok/MAFS5250.htm), a postgraduate-level course that I took at the Math Dept. at HKUST in Spring 2017. This course is lectured by Prof. Yue-kuen Kwok. I am responsible for the code.
 
 - For the C code for this project, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
 
@@ -25,15 +25,24 @@ This project is a computer assignments that I did with Xue Sidan, for [*MAFS 525
 
 *using fully implicit finite difference scheme*
 
-### More Information 
+### More Information
 
-This project is a computer assignments that I did with Xue Sidan, for [*MAFS 5250 Computational Methods for Pricing Structured Products*](https://www.math.ust.hk/~maykwok/MAFS5250.htm), a postgraduate-level course that I took at the Math Dept. at HKUST in Summer 2017.
+This project serves as a computer assignment that I did with Xue Sidan, for [*MAFS 5250 Computational Methods for Pricing Structured Products*](https://www.math.ust.hk/~maykwok/MAFS5250.htm), a postgraduate-level course that I took at the Math Dept. at HKUST in Spring 2017. This course is lectured by Prof. Yue-kuen Kwok. I am responsible for the code.
 
-- For the C code for this project, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
+- For the Java code for this project, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
 
 ## 3. Pricing an option on bond
 
 *using a trinomial tree under the Hull-White model*
 
+This project serves as an assignment that I did for *MAFS5040 Quantitative Methods for Fixed-Income Instruments*, a postgraduate-level course that I took at the Math Dept. at HKUST in Spring 2017. This course is lectured by Prof. Lixin Wu. I am responsible for the code.
+
 ## 4. Building a classical binomial tree
+
+### More Information
+
+This project serves as an assignment that I did for *MAFS 5260 : Building Financial Applications with Java and VBA*, a postgraduate-level course that I took at the Math Dept. at HKUST in Spring 2017. This course is lectured by Dr. Chung-dak Shum. I am responsible for the code.
+
+- For the Java code for this project, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
+
 
