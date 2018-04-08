@@ -10,3 +10,5 @@ use-site-title: true
 *A demo of code. Note how fast it is. Without a carefully designed data structure, it could take quite a few minutes.*
 
 - For the C and Java code for the projects, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
+
+## Two-State Lattice Tree Algorithm with Forward Shooting Grid (FSG)
