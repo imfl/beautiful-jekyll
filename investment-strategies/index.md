@@ -9,7 +9,7 @@ use-site-title: true
 
 *Detecting which stage Hong Kong economy is in using Hidden Markov Model (HMM).*
 
-- For the R code and related data for HMM, click here (GitHub).
+- For the R code and related data for HMM, click [here](https://github.com/imfl/investment-strategies) (GitHub).
 
 ## A Sector Rotation Trading Strategy
 
