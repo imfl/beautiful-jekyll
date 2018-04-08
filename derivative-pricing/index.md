@@ -39,6 +39,14 @@ This project serves as a computer assignment that I did with Xue Sidan, for [*MA
 
 *using a trinomial tree under the Hull-White model*
 
+Price a European call option on the clean price of a bond using a trinomial tree under the Hull-White model. 
+
+The details of the financial derivative are [here](https://github.com/imfl/derivative-pricing/tree/master/trinomial-hull-white/que.pdf) (PDF).
+
+The C code to price the strutured product is [here](https://github.com/imfl/derivative-pricing/tree/master/trinomial-hull-white/sol.c) (GitHub).
+
+### More Information
+
 This project serves as an assignment that I did for *MAFS5040 Quantitative Methods for Fixed-Income Instruments*, a postgraduate-level course that I took at the Math Dept. at HKUST in Spring 2017. This course is lectured by Prof. Lixin Wu. I am responsible for the code.
 
 ## 4. Building a classical binomial tree
