@@ -1,7 +1,7 @@
 ---
 layout: page
 title: investment
-subtitle: to identify promising sectors
+subtitle: with an aim to identify promising sectors
 use-site-title: true
 ---
 
