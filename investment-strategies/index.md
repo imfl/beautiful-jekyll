@@ -1,11 +1,11 @@
 ---
 layout: page
-title: investment strategies
+title: investment
 subtitle: to identify promising sectors
 use-site-title: true
 ---
 
-## A Sector Rotation Trading Strategy in Hong Kong Stock Market
+## A Sector Rotation Trading Strategy
 
 We design and implement a sector rotation trading strategy in Hong Kong Stock Market.
 
@@ -42,4 +42,4 @@ This project was supervised by Prof. Christopher Ting from the Singapore Managem
 
 I am responsible for designing most of the algorithms, and for implmenting the HMM part using R (with `depmixS4` pacakge).
 
-- For the R code for this project, click [here](https://github.com/imfl/investment-strategies) (GitHub).
+- For the R code and related data, click [here](https://github.com/imfl/investment-strategies) (GitHub).
