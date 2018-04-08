@@ -22,11 +22,19 @@ Two steps are involved:
 1. detect the stage of the cycle
 2. quantify the descriptive recommendations such as strong buy, neutral and sell
 
+![decisions](decisions.png)
+
+*A summary of buy-or-sell recommendations that investment theory gives for a sector given the stage it is in a business cycle.*
+
 Techniques we have applied include:
 
 - Principal Component Analysis (PCA) in stock selection
 - Hidden Markov Model (HMM) in business cycle detection
 - Monte Carlo methods, with Gibbs sampling ideas, for optimization
+
+![moving](v.moving.png)
+
+*A series of moving-window guesses using Hidden Markov Model: What is the probability that we are now in regime boom / reigim bust?*
 
 We also discuss using statistical techniques, such as skewness, kurtosis, and variance ratio tests, for ﬁne-tuning our strategy.
 
