@@ -30,7 +30,7 @@ A presentation of this project is here (PDF).
 
 A report of this project is here (PDF) <sup>1</sup>.
 
-<sup>1</sup> Results in the presentation and the report are different because we made some improvements in between.
+<sup>1</sup> Results in the presentation and the report are slightly different since we've made some improvements in between.
 
 ### More Information 
 
