@@ -9,16 +9,26 @@ use-site-title: true
 
 We design and implement a sector rotation trading strategy in Hong Kong Stock Market.
 
-Strategically, we rotate the focus of our investment from one industry sector to another, according to the fluctuations of the business cycle.
+We rotate the focus of our investment from one industry sector to another, according to the fluctuations of the business cycle. Our strategy, which trades quarterly, yields a total return of 297.0% in the investment horizon, which spans from Q1 2009 to Q4 2016, compared to 113.0% for Hang Seng Index (HSI) for the same period.
 
-The core of our strategy is
+Two steps are involved:
 
-1. to detect the stage of the cycle, and
-2. to quantify the descriptive recommendations such as strong buy, neutral and sell.
+1. detect the stage of the cycle
+2. quantify the descriptive recommendations such as strong buy, neutral and sell
 
-We apply Principal Component Analysis in selecting the stocks, Hidden Markov Model (HMM) to detect the stage of the business cycle, and employ Monte Carlo methods, with Gibbs sampling ideas, for optimization.
+Techniques we have applied include:
+
+- Principal Component Analysis (PCA) in stock selection
+- Hidden Markov Model (HMM) in business cycle detection
+- Monte Carlo methods, with Gibbs sampling ideas, for optimization
 
 We also discuss using statistical techniques, such as skewness, kurtosis, and variance ratio tests, for ﬁne-tuning our strategy.
+
+### Summary
+
+A presentation of this project is here (PDF).
+
+A report of this project is here (PDF) [*](Results are different because we improved our results after presentation).
 
 ### More Information 
 
