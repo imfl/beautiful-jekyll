@@ -16,6 +16,16 @@ The core of our strategy is
 1. to detect the stage of the cycle, and
 2. to quantify the descriptive recommendations such as strong buy, neutral and sell.
 
-We apply Principal Component Analysis in selecting the stocks, Hidden Markov Model to detect the stage of the business cycle, and employ Monte Carlo meth- ods, with Gibbs sampling ideas, for optimization.
+We apply Principal Component Analysis in selecting the stocks, Hidden Markov Model (HMM) to detect the stage of the business cycle, and employ Monte Carlo methods, with Gibbs sampling ideas, for optimization.
 
 We also discuss using statistical techniques, such as skewness, kurtosis, and variance ratio tests, for ﬁne-tuning our strategy.
+
+### More Information 
+
+This project is an academic project that I did together with [Wei Jian](https://jesseweifj.github.io) and Xing Siyu, for [*MAFS 6010K Algorithmic Quantitative Finance*](http://cting.x10host.com/AQF/AQF.html), a postgraduate-level financial mathematics course that I took at the Math department at HKUST in Summer 2017.
+
+This project was supervised by [Prof. Christopher Ting](http://www.mysmu.edu/faculty/christophert/index.html) from the Singapore Management University.
+
+I am responsible for designing most of the algorithms, and for implmenting the HMM using R.
+
+- For the R code for this project, click [here](https://github.com/imfl/investment-strategies) (GitHub).
