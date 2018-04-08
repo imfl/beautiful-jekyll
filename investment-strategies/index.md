@@ -7,7 +7,7 @@ use-site-title: true
 
 ![cycle](cycle.png)
 
-*Detecting which stage Hong Kong economy is in using Hidden Markov Model (HMM).*
+*Which stage of economy are we in? A plot shows how Hidden Markov Model (HMM) thinks about Hong Kong economy, using GDP and changes in inventories.*
 
 - For the R code and related data for HMM, click [here](https://github.com/imfl/investment-strategies) (GitHub).
 
