@@ -45,7 +45,7 @@ The empirical results are [here](https://github.com/imfl/data-mining/tree/master
 
 ### More Information 
 
-This project is an academic project that I did together with Lee Yik-Yeung, for [*COMP5331: Knowledge Discovery in Databases*](https://www.cse.ust.hk/~raywong/comp5331/), a postgraudate-level course that I took at the CS Dept. at HKUST in Fall 2017.
+This project is an academic project that I did together with Lee Yik-Yeung, for [*COMP5331: Knowledge Discovery in Databases*](https://www.cse.ust.hk/~raywong/comp5331/), a postgraudate-level course that I took at the CS dept. at HKUST in Fall 2017.
 
 This project was supervised by [Prof. Raymond Wong](https://www.cse.ust.hk/~raywong/), one of the best teachers that I has ever met in my life. I would like to take this opportunity to again express my gratitude.
 
