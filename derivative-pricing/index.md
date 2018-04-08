@@ -11,4 +11,19 @@ use-site-title: true
 
 - For the C and Java code for the projects, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
 
-## Two-State Lattice Tree Algorithm with Forward Shooting Grid (FSG)
+## Pricing Equity-Linked Structured Product using Lattice Tree Approach with Forward Shooting Grid (FSG)
+
+### More Information 
+
+This project is a computer assignments that I did with Xue Sidan, for [*MAFS 5250 Computational Methods for Pricing Structured Products*](https://www.math.ust.hk/~maykwok/MAFS5250.htm), a postgraduate-level course that I took at the Math Dept. at HKUST in Summer 2017.
+
+- For the C code for this project, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
+
+## Pricing Participating Life Insurance Policies using Finite Difference Approach
+
+### More Information 
+
+This project is a computer assignments that I did with Xue Sidan, for [*MAFS 5250 Computational Methods for Pricing Structured Products*](https://www.math.ust.hk/~maykwok/MAFS5250.htm), a postgraduate-level course that I took at the Math Dept. at HKUST in Summer 2017.
+
+- For the C code for this project, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
+
