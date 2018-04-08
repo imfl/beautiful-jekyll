@@ -5,6 +5,10 @@ subtitle: to identify promising sectors
 use-site-title: true
 ---
 
+![cycle](cycle.png)
+
+*Detecting which stage Hong Kong economy is in using Hidden Markov Model (HMM).*
+
 ## A Sector Rotation Trading Strategy
 
 We design and implement a sector rotation trading strategy in Hong Kong Stock Market.
