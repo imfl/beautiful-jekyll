@@ -7,11 +7,13 @@ use-site-title: true
 
 ![demo](demo.gif)
 
-*A demo of code. Note how fast it is. Without a carefully designed data structure, it could take quite a few minutes.*
+*A demo of code for Project 1. Note how fast it is. Without a carefully designed data structure, it could take quite a few minutes.*
 
 - For the C and Java code for the projects, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
 
-## Pricing a derivative whose return is linked with two stocks
+## 1. Pricing a derivative whose return is linked with two stocks
+
+*using lattice tree method with forward shooting grid (FSG) techinique*
 
 ### More Information 
 
@@ -19,7 +21,9 @@ This project is a computer assignments that I did with Xue Sidan, for [*MAFS 525
 
 - For the C code for this project, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
 
-## Pricing participating life insurance policies
+## 2. Pricing participating life insurance policies
+
+*using fully implicit finite difference scheme*
 
 ### More Information 
 
@@ -27,7 +31,9 @@ This project is a computer assignments that I did with Xue Sidan, for [*MAFS 525
 
 - For the C code for this project, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
 
-## Pricing a call option on bond
+## 3. Pricing an option on bond
 
-## Building a Classical Binomial Tree
+*using a trinomial tree under the Hull-White model*
+
+## 4. Building a classical binomial tree
 
