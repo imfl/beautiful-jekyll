@@ -15,11 +15,11 @@ use-site-title: true
 
 The details of the financial derivative is [here](https://github.com/imfl/derivative-pricing/tree/master/two-state-lattice-fsg/que.pdf) (PDF).
 
-The C code to price the strutured product is [here](https://github.com/imfl/derivative-pricing/blob/master/two-state-lattice-fsg/sol.c).
+The C code to price the strutured product is [here](https://github.com/imfl/derivative-pricing/blob/master/two-state-lattice-fsg/sol.c) (GitHub).
 
 ### More Information 
 
-This project serves as a computer assignment that I did with Xue Sidan, for [*MAFS 5250 Computational Methods for Pricing Structured Products*](https://www.math.ust.hk/~maykwok/MAFS5250.htm), a postgraduate-level course that I took at the Math Dept. at HKUST in Spring 2017. This course is lectured by Prof. Yue-kuen Kwok. I am responsible for the code.
+This project serves as a computer assignment that I did with Xue Sidan, for [*MAFS 5250 Computational Methods for Pricing Structured Products*](https://www.math.ust.hk/~maykwok/MAFS5250.htm), a postgraduate-level course that I took at the Math Dept. at HKUST in Spring 2017. This course is lectured by Prof. Yue-kuen Kwok. I am responsible for the design and implementation as well as the code.
 
 - For the C code for this project, click [here](https://github.com/imfl/derivative-pricing) (GitHub).
 
