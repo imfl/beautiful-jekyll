@@ -1,7 +1,7 @@
 ---
 layout: page
 title: investment strategies
-subtitle: a sector rotation trading strategy in Hong Kong
+subtitle: to identify promising sectors
 use-site-title: true
 ---
 
