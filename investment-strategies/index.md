@@ -9,7 +9,9 @@ use-site-title: true
 
 We design and implement a sector rotation trading strategy in Hong Kong Stock Market.
 
-We rotate the focus of our investment from one industry sector to another, according to the fluctuations of the business cycle. Our strategy, which trades quarterly, yields a total return of 297.0% in the investment horizon, which spans from Q1 2009 to Q4 2016, compared to 113.0% for Hang Seng Index (HSI) for the same period.
+We rotate the focus of our investment from one industry sector to another, according to the fluctuations of the business cycle.
+
+Our strategy, which trades quarterly, yields a total return of 297.0% in the investment horizon, which spans from Q1 2009 to Q4 2016, compared to 113.0% for Hang Seng Index (HSI) for the same period.
 
 Two steps are involved:
 
