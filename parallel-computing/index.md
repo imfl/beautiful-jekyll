@@ -5,6 +5,8 @@ subtitle: is there any arbitrage opportunity?
 use-site-title: true
 ---
 
+The [Bellman-Ford algorithm](https://en.wikipedia.org/wiki/Bellman-Ford_algorithm) is an algorithm that computes the shortest paths from one single source vertex to all the other vertices in a weighted directed graph. The weights can be negative.
+
 ### MPI
 
 The C++ code is [here](https://github.com/imfl/parallel-computing/blob/master/bf-mpi.cpp) (GitHub).
