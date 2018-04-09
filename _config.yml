@@ -17,7 +17,7 @@ baseurl: ""
 title: I'm FL
 
 # Short description of your site
-description: Fu Lei's site
+# description:
 
 # --- Navigation bar options --- #
 
@@ -68,7 +68,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Fu Lei
+  name: FL
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
