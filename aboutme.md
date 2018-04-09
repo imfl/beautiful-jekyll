@@ -24,10 +24,10 @@ Even before that, I was a journalist.
 
 I live with my wife, my daughter, and two stuffed animals -- a lopped-eared rabbit and a little giant panda.
 
-That rabbit came to my home as she applied the job as a housemaid, but never did one day's work after she came (and settled).
-
-She expresses enthusiasm by kicking anyone she likes (or hates).
-
 ![rabbit](rabbit.jpg)
 
 *The rabbit is pointing to the camera saying look at this fool.*
+
+That rabbit came to my house as she claimed to do the job as a housemaid, but never did one day's work after she came (and has settled since then).
+
+She expresses enthusiasm by kicking anyone or anything that she likes (or hates).
