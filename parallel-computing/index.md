@@ -13,7 +13,7 @@ Assume that you have US dollars. Now you are travelling to East Asia. You want t
 
 Better yet, it may even tell if there is any arbitrage opportunity in the foreign exchange market. Say you exchange USD $1 for HKD $8, and HKD $8 for SGD $1.4, and SGD $1.4 for USD $1.05. Congratulations! You've found an arbitrage opportunity that brings you money with no effort.
 
-In this project I parallelize the Bellman-Ford algorithm using multiple programming paradigms, including MPI, which is distributed-memory programming, and OMP and CUDA, which are shared-memory programming.
+In this project I parallelize the Bellman-Ford algorithm so that the computation can be much faster, especially for large graphs. Multiple programming paradigms are employed, including MPI, which is distributed-memory programming, and OMP and CUDA, which are shared-memory programming.
 
 ### MPI
 
