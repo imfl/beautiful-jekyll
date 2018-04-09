@@ -1,44 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+use-site-title: true
 ---
 
-#####What is a stream ?
-
-A *stream* is a sequence of data read from or written to an IO device.
-
-- It is to be processed in a sequential order over time (i.e. one by one);
-- It it to be interpreted in the format as the user wishes.
-
-Consider
-
-```C++
-int a;
-double b;
-char c;
-std::cin >> a;
-std::cin >> b;
-std::cin >> c;
-```
-
-Suppose we enter `1 1 1 ` , then the first 1 would be interpreted as an `int` , the second one a `double` , and the third one a `char` .
-
-#####From What to What ?
-
-Consider
-
-```c++
-std::string s1 = "Hello, ";
-std::string s2 = "World !";
-std::cout << s1 << s2;
-```
-
-| operator      | `<<`               | `>>`               |
-| :------------ | :----------------- | ------------------ |
-| name          | insertion          | extraction         |
-| reads         | *put to*           | *get from*         |
-| IO direction  | write to / output  | read from / input  |
-| syntax        | `ostream << src`   | `istream >> dest`  |
-| returns       | `ostream &`        | `istream &`        |
-| associativity | from left to right | from left to right |
+I graduated from the Hong Kong University of Science and Technology (HKUST) at the end of 2017, with a master of science degree in financial mathematics. I spent a memorable 1.5 years in the charming campus by the sea, where I devoted half of my time to financial mathematics, and the other half with computer science. Library that I frequent is my favorite. There are two seats on LG3 floor which I almost deem as my private property.
