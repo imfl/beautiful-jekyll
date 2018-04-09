@@ -11,7 +11,7 @@ The [Bellman-Ford algorithm](https://en.wikipedia.org/wiki/Bellman-Ford_algorith
 
 Assume that you have US dollars. Now you are travelling to East Asia. You want to know the cheapest rates that you can exchange for local currencies. Bellman-Ford algorithm can help you solve this.
 
-Better yet, it may even tell if there is any arbitrage opportunity in the foreign exchange market. Say you exchange USD $1 for HKD $8, and HKD $8 for SGD $1.4, and SGD $1.4 for USD $1.05. Congratulations! You've found an arbitrage opportunity that brings you money with no effort.
+Better yet, it may even tell you if there is any arbitrage opportunity in the foreign exchange market. Say you manage to exchange USD $1 for HKD $8, and HKD $8 for SGD $1.4, and SGD $1.4 for USD $1.05. Congratulations! You've found an arbitrage opportunity that brings you money with no effort.
 
 ### Parallelization
 
