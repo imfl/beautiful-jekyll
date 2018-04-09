@@ -24,5 +24,5 @@ You are required to show the information about each final cluster (including the
 
 For the C code, click [here][kmeans] (GitHub).
 
-[kmeans]: https://github.com/imfl/c-snippets/blob/master/data-mining/kmeans.c	"Go to GitHub Repository"
+[kmeans]: https://github.com/imfl/c-snippets/blob/master/data-mining/kmeans/kmeans.c	"Go to GitHub Repository"
 
