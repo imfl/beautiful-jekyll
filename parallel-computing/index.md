@@ -7,15 +7,15 @@ use-site-title: true
 
 ### MPI
 
-The C++ code to price the strutured product is [here](https://github.com/imfl/parallel-computing/blob/master/bf-mpi.cpp) (GitHub).
+The C++ (MPI) code is [here](https://github.com/imfl/parallel-computing/blob/master/bf-mpi.cpp) (GitHub).
 
 ### OMP
 
-The C++ code to price the strutured product is [here](https://github.com/imfl/parallel-computing/blob/master/bf-omp.cpp) (GitHub).
+The C++ (OMP) code is [here](https://github.com/imfl/parallel-computing/blob/master/bf-omp.cpp) (GitHub).
 
 ### CUDA
 
-The C++ (CUDA) code to price the strutured product is [here](https://github.com/imfl/parallel-computing/blob/master/bf-cuda.cu) (GitHub).
+The C++ (CUDA) code is [here](https://github.com/imfl/parallel-computing/blob/master/bf-cuda.cu) (GitHub).
 
 ### More Information 
 
