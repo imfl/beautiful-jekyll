@@ -7,7 +7,7 @@ use-site-title: true
 
 The [Bellman-Ford algorithm](https://en.wikipedia.org/wiki/Bellman-Ford_algorithm) is an algorithm that computes the shortest paths from one single source vertex to all the other vertices in a weighted directed graph. The weights can be negative.
 
-### An Application
+### What can I use it for?
 
 Assume that you have US dollars. Now you are travelling to East Asia. You want to know the cheapest rates that you can exchange for local currencies. Bellman-Ford algorithm can help you solve this.
 
