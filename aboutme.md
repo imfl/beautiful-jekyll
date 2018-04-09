@@ -20,6 +20,6 @@ Even before that, I was a journalist.
 
 I live with my wife, my daughter, and two stuffed animals --- a little giant panda and a lopped-eared rabbit.
 
-That rabbit came to my house as she claimed to serve as a housemaid, but never did one day's work after she came (and has settled since then).
+That rabbit came to my house claiming to serve as a housemaid, but never did one day's work after she came (and has settled since then).
 
 She expresses enthusiasm by kicking anyone or anything that she likes (or hates).
