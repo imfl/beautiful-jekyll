@@ -7,11 +7,11 @@ use-site-title: true
 
 ### MPI
 
-The C++ (MPI) code is [here](https://github.com/imfl/parallel-computing/blob/master/bf-mpi.cpp) (GitHub).
+The C++ code is [here](https://github.com/imfl/parallel-computing/blob/master/bf-mpi.cpp) (GitHub).
 
 ### OMP
 
-The C++ (OMP) code is [here](https://github.com/imfl/parallel-computing/blob/master/bf-omp.cpp) (GitHub).
+The C++ code is [here](https://github.com/imfl/parallel-computing/blob/master/bf-omp.cpp) (GitHub).
 
 ### CUDA
 
