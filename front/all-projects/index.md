@@ -1,6 +1,7 @@
 ---
 layout: page
 title: all projects
+subtitle: a full list
 use-site-title: false
 ---
 
