@@ -4,102 +4,118 @@ title: I'm FL
 subtitle: learning by doing
 ---
 <div class="row text-center">
-  {%- assign gh-user = "imfl"-%}
-  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
-    <div class="project-card">
-      {%- assign gh-project = "Data Mining" -%}
-      {%- assign gh-repo = "data-mining" -%}
-      <!-- <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-repo -}}" class="project-link" title="Go to Github Repository"> -->
-      <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x stack-color"></i>
-          <i class="fa fa-search fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4>{{- gh-project -}}</h4>
-        <hr class="seperator">
-        <p class="text-muted">An academic project that speeds up data mining on time series</p>
-        <hr class="seperator">
-      </a>
+    {%- assign gh-user = "imfl"-%}
+    <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+        <div class="project-card">
+            {%- assign text = "All Projects" -%}
+            {%- assign link = "all-projects" -%}
+            <a target="_blank" href="{{- link -}}/index" class="project-link" title="">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x stack-color"></i>
+                    <i class="fa fa-list-ol fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4>{{- text -}}</h4>
+                <hr class="seperator">
+                <p class="text-muted">A list of all my projects here.</p>
+                <hr class="seperator">
+            </a>
+        </div>
     </div>
-  </div>
-  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
-    <div class="project-card">
-      {%- assign gh-project = "Parallel Computing" -%}
-      {%- assign gh-repo = "parallel-computing" -%}
-      <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x stack-color"></i>
-          <i class="fa fa-bars fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4>{{- gh-project -}}</h4>
-        <hr class="seperator">
-        <p class="text-muted">Parallel implementations of Bellman-Ford algorithm, with MPI, OMP and CUDA</p>
-        <hr class="seperator">
-      </a>
+    <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+        <div class="project-card">
+            {%- assign gh-project = "Data Mining" -%}
+            {%- assign gh-repo = "data-mining" -%}
+            <!-- <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-repo -}}" class="project-link" title="Go to Github Repository"> -->
+            <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x stack-color"></i>
+                    <i class="fa fa-search fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4>{{- gh-project -}}</h4>
+                <hr class="seperator">
+                <p class="text-muted">An academic project that speeds up data mining on time series</p>
+                <hr class="seperator">
+            </a>
+        </div>
     </div>
-  </div>
-  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
-    <div class="project-card">
-      {%- assign gh-project = "Derivative Pricing" -%}
-      {%- assign gh-repo = "derivative-pricing" -%}
-      <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="Go to Github Poject Page">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x stack-color"></i>
-          <i class="fa fa-usd fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4>{{- gh-project -}}</h4>
-        <hr class="seperator">
-        <p class="text-muted">Pricing financial derivatives using trees and finite difference</p>
-        <hr class="seperator">
-      </a>
+    <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+        <div class="project-card">
+            {%- assign gh-project = "Parallel Computing" -%}
+            {%- assign gh-repo = "parallel-computing" -%}
+            <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x stack-color"></i>
+                    <i class="fa fa-bars fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4>{{- gh-project -}}</h4>
+                <hr class="seperator">
+                <p class="text-muted">Parallel implementations of Bellman-Ford algorithm, with MPI, OMP and CUDA</p>
+                <hr class="seperator">
+            </a>
+        </div>
     </div>
-  </div>
-  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
-    <div class="project-card">
-      {%- assign gh-project = "Investment Strategies" -%}
-      {%- assign gh-repo = "investment-strategies" -%}
-      <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x stack-color"></i>
-          <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4>{{- gh-project -}}</h4>
-        <hr class="seperator">
-        <p class="text-muted">A sector rotation trading strategy in Hong Kong Stock Market</p>
-        <hr class="seperator">
-      </a>
+    <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+        <div class="project-card">
+            {%- assign gh-project = "Derivative Pricing" -%}
+            {%- assign gh-repo = "derivative-pricing" -%}
+            <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="Go to Github Poject Page">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x stack-color"></i>
+                    <i class="fa fa-usd fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4>{{- gh-project -}}</h4>
+                <hr class="seperator">
+                <p class="text-muted">Pricing financial derivatives using trees and finite difference</p>
+                <hr class="seperator">
+            </a>
+        </div>
     </div>
-  </div>
-  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
-    <div class="project-card">
-      {%- assign gh-project = "Financial Mathematics" -%}
-      {%- assign gh-repo = "financial-mathematics" -%}
-      <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x stack-color"></i>
-          <i class="fa fa-superscript fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4>{{- gh-project -}}</h4>
-        <hr class="seperator">
-        <p class="text-muted">A little financial maths</p>
-        <hr class="seperator">
-      </a>
+    <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+        <div class="project-card">
+            {%- assign gh-project = "Investment Strategies" -%}
+            {%- assign gh-repo = "investment-strategies" -%}
+            <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x stack-color"></i>
+                    <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4>{{- gh-project -}}</h4>
+                <hr class="seperator">
+                <p class="text-muted">A sector rotation trading strategy in Hong Kong Stock Market</p>
+                <hr class="seperator">
+            </a>
+        </div>
     </div>
-  </div>
-  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
-    <div class="project-card">
-      {%- assign gh-project = "Algorithms" -%}
-      {%- assign gh-repo = "algorithms" -%}
-      <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x stack-color"></i>
-          <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4>{{- gh-project -}}</h4>
-        <hr class="seperator">
-        <p class="text-muted">A few algorithms</p>
-        <hr class="seperator">
-      </a>
+    <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+        <div class="project-card">
+            {%- assign gh-project = "Financial Mathematics" -%}
+            {%- assign gh-repo = "financial-mathematics" -%}
+            <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x stack-color"></i>
+                    <i class="fa fa-superscript fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4>{{- gh-project -}}</h4>
+                <hr class="seperator">
+                <p class="text-muted">A little financial maths</p>
+                <hr class="seperator">
+            </a>
+        </div>
     </div>
-  </div>
+    <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+        <div class="project-card">
+            {%- assign gh-project = "Algorithms" -%}
+            {%- assign gh-repo = "algorithms" -%}
+            <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x stack-color"></i>
+                    <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4>{{- gh-project -}}</h4>
+                <hr class="seperator">
+                <p class="text-muted">A few algorithms</p>
+                <hr class="seperator">
+            </a>
+        </div>
+    </div>
 </div>
