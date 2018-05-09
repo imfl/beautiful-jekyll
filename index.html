@@ -5,11 +5,28 @@ subtitle: learning by doing
 ---
 <div class="row text-center">
   {%- assign gh-user = "imfl"-%}
+
+  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+    <div class="project-card">
+      {%- assign gh-project = "All Projects" -%}
+      {%- assign gh-repo = "all-projects" -%}
+      <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x stack-color"></i>
+          <i class="fa fa-list-ol fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4>{{- gh-project -}}</h4>
+        <hr class="seperator">
+        <p class="text-muted">An academic project that speeds up data mining on time series</p>
+        <hr class="seperator">
+      </a>
+    </div>
+  </div>
+
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
       {%- assign gh-project = "Data Mining" -%}
       {%- assign gh-repo = "data-mining" -%}
-      <!-- <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-repo -}}" class="project-link" title="Go to Github Repository"> -->
       <a target="_blank" href="{{- gh-repo -}}/index" class="project-link" title="">
         <span class="fa-stack fa-4x">
           <i class="fa fa-circle fa-stack-2x stack-color"></i>
