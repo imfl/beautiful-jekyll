@@ -24,6 +24,7 @@ title: I'm FL
 # List of links in the navigation bar
 navbar-links:
   Home: "https://imfl.github.io/"
+  GitHub: "https://github.com/imfl"
   Projects:
     - Date Mining: "https://imfl.github.io/data-mining/index"
     - Parallel Computing: "https://imfl.github.io/parallel-computing/index"
