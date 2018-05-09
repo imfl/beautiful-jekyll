@@ -1,8 +1,7 @@
 ---
 layout: page
-title: data mining
-subtitle: to bring down time complexity
-use-site-title: true
+title: all projects
+use-site-title: false
 ---
 
 ## Introducing Dynamic Time Warping Distance into Matrix Profile
