@@ -74,9 +74,9 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 
 social-network-links:
-  rss: true
-  email: "lei.fu@connect.ust.hk"
   github: imfl
+  email: "lei.fu@connect.ust.hk"
+#  rss: true
 #  facebook: daattali
 #  twitter: daattali
 #  reddit: yourname
