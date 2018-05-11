@@ -21,4 +21,4 @@ Pricing financial derivatives using trees and finite difference.
 
 A sector rotation trading strategy in Hong Kong Stock Market.
 
-*more to be on line ...*
+*more to come soon ...*
