@@ -5,13 +5,17 @@ subtitle: a full list
 use-site-title: false
 ---
 
-## Introducing Dynamic Time Warping Distance into Matrix Profile
-
-Click [here](https://imfl.github.io/front/data-mining/index)
+## [Data Mining](https://imfl.github.io/front/data-mining/index)
 
 
 
-## A sector rotation trading strategy in Hong Kong Stock Market
+## [Parallel Computing](https://imfl.github.io/front/parallel-computing/index)
 
-Click [here](https://imfl.github.io/front/investment-strategies/index)
+
+
+##[Derivative Pricing](https://imfl.github.io/front/derivative-pricing/index)
+
+
+
+## [Investment Strategies](https://imfl.github.io/front/investment-strategies/index)
 
