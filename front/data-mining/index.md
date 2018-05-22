@@ -22,6 +22,8 @@ In Step 1, the current setting uses the traditional Euclidean distance to measur
 
 ![eu-dtw](eu-dtw.png){: height=10 width=10}
 
+<img src= "eu-dtw.png" width="200" height="200" />
+
 *DTW is sharp in detecting similarity even if a curve has been stretched or squeezed.*
 
 *Source: XantaCross. Creative Commons*
