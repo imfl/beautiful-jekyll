@@ -22,9 +22,7 @@ In Step 1, the current setting uses the traditional Euclidean distance to measur
 
 ![eu-dtw](eu-dtw.png)
 
-*DTW is sharp in detecting similarity even if a curve has been stretched or squeezed.*
-
-*Source: XantaCross. Creative Commons*
+*DTW is sharp in detecting similarity even if a curve has been stretched or squeezed. Source: XantaCross, Creative Commons.*
 
 As an initial attempt in the academic community, I introduced DTW into MP.
 
@@ -32,9 +30,7 @@ The main challenge is --- the time complexity for computing both MP and DTW are 
 
 ![dtw-dp](dtw-dp.png)
 
-*Calculating DTW involves dynamic programming.*
-
-*Source: Elena Tsiporkova, Dynamic Time Warping Algorithm*
+*Calculating DTW involves dynamic programming. Source: Elena Tsiporkova, Dynamic Time Warping Algorithm.*
 
 My originalities are
 
@@ -56,3 +52,5 @@ This project was supervised by [Prof. Raymond Wong](https://www.cse.ust.hk/~rayw
 I am responsible for the algorithms and the code.
 
 - For the C++ code for this project, click [here](https://github.com/imfl/data-mining) (GitHub).
+
+![eu-dtw](eu-dtw.png){% img eu-dtw.png 100x200 %}
