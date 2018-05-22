@@ -52,5 +52,3 @@ This project was supervised by [Prof. Raymond Wong](https://www.cse.ust.hk/~rayw
 I am responsible for the algorithms and the code.
 
 - For the C++ code for this project, click [here](https://github.com/imfl/data-mining) (GitHub).
-
-![eu-dtw](eu-dtw.png){% eu-dtw eu-dtw.png 100x200 %}
