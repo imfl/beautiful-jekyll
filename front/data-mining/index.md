@@ -20,9 +20,7 @@ Matrix Profile (MP) has emerged as a new concept in the data mining community si
 
 In Step 1, the current setting uses the traditional Euclidean distance to measure how similar two subsequences are. However, a better approach would be using the Dynamic Time Warping (DTW) distance. See the graph below for intuition.
 
-![eu-dtw](eu-dtw.png){: height=10 width=10}
-
-<img src= "eu-dtw.png" width="200" height="200" />
+![eu-dtw](eu-dtw.png)
 
 *DTW is sharp in detecting similarity even if a curve has been stretched or squeezed.*
 
