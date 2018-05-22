@@ -2,7 +2,7 @@
 layout: page
 title: all projects
 subtitle: a full list
-use-site-title: false
+use-site-title: true
 ---
 
 ## [Data Mining](https://imfl.github.io/front/data-mining/index)
