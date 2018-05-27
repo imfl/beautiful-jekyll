@@ -2,16 +2,17 @@
 mathjax: true
 ---
 
-# A very quick derivation of Black-Scholes equation and formula
+# A very quick derivation of Black-Scholes equation
 
-**Approach** replicate a contingent claim by a self-financing portfolio of asset and bonds
+**Replicates** an option by a self-financing portfolio of an asset and a bond
 
-**Assumes**  asset price is governed by a geometric Brownian process.
+**Assumes**  asset price is governed by a geometric Brownian process
 
 **Uses** Ito Lemma
 
-**Step 1**
+## Derivation
 
+**Step 1**	Price dynamics
 $$
 \begin{align}
     \frac{dS}{S} & = \mu dt + \sigma dB	\\
@@ -19,15 +20,24 @@ $$
 \end{align}
 $$
 
-**Step 2**
+**Step 2**	A replicating portfolio
 
 $$
 V = a S + b \beta
 $$
 
+**Step 3**	Self-financing
+
+$$
+\begin{align}
+    dV & = a dS + b d\beta \\
+    & = a \bigg(\mu S dt + \sigma S dB \bigg) + br\beta dt \\
+    & = \bigg(a\mu S +br\beta \bigg) dt + a\sigma S dB
+\end{align}
+$$
 
 
-**Step 3**
+**Step 4**	Applies Ito Lemma
 
 $$
 \begin{align}
@@ -39,17 +49,8 @@ $$
 \end{align}
 $$
 
-**Step 4**
 
-$$
-\begin{align}
-    dV & = a dS + b d\beta \\
-    & = a \bigg(\mu S dt + \sigma S dB \bigg) + br\beta dt \\
-    & = \bigg(a\mu S +br\beta \bigg) dt + a\sigma S dB
-\end{align}
-$$
-
-**Step 5**
+**Step 5**	Hedge ratio
 
 $$
 \begin{align}
@@ -59,7 +60,7 @@ $$
 $$
 
 
-**Step 6**
+**Step 6**	Black-Scholes model
 
 $$
 \begin{align}
