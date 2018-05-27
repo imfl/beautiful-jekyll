@@ -32,7 +32,7 @@ mathjax: true
 $$
 \left\{
 \begin{align}
-    \frac{dS}{S} & = \mu dt + \sigma dB \\
+    \frac{dS}{S} & = \mu dt + \sigma dB \\~\\
     \frac{d\beta}{\beta} & = rdt
 \end{align} \tag{1}
 \right.
@@ -78,9 +78,15 @@ $$
 **Step 6** $\quad$ Black-Scholes equation, by equating $(3)$ and $(4)$ on $dt$,  and using $(2)$ and $(5)$
 
 $$
+\left\{
 \begin{align}
-   & \bigg(\frac{\partial V}{\partial t} + \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt = \bigg(a\mu S +br\beta \bigg) dt \\
-   & b = \frac{V - aS}{\beta} \\
-    \implies & \frac{\partial V}{\partial t} + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 + \frac{\partial V}{\partial S} rS  - rV = 0
-\end{align}
+    & \bigg(\frac{\partial V}{\partial t} + \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt = \bigg(a\mu S +br\beta \bigg) dt \\~\\
+    & b = \frac{V - aS}{\beta} \\~\\
+    & a = \frac{\partial{V}}{\partial{S}}\\~\\
+\end{align}  \right.
 $$
+
+$$
+\implies \frac{\partial V}{\partial t} + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 + \frac{\partial V}{\partial S} rS  - rV = 0
+$$
+
