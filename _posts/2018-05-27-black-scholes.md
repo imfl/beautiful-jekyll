@@ -4,11 +4,27 @@ mathjax: true
 
 # A very quick derivation of Black-Scholes equation
 
+## Ideas
+
 **Replicates** the cash flow of an European option by a self-financing portfolio of an asset and a bond
 
 **Assumes**  asset price is governed by a geometric Brownian process
 
 **Uses** Ito Lemma
+
+## Notation
+
+|  symbol   | stands for                                                   |
+| :-------: | ------------------------------------------------------------ |
+|    $t$    | current time (time of option pricing)                        |
+|    $T$    | time of expiry of the option                                 |
+|   $S_t$   | asset price at time $t$, a geometric Brownian motion with drift rate $\mu$ and volatility rate $\sigma$ |
+| $\beta_t$ | bond price at time $t$, determined by constant interest rate $r$ |
+|   $V_t$   | value of the replicating portfolio at time $t$               |
+|   $a_t$   | units of the asset $S$ in the replicating portfolio $V$ at time $t$ |
+|   $b_t$   | units of the bond $\beta$  in the replicating portfolio $V$ at time $t$ |
+
+*To highlight the key ideas, in what follows, we aggressively suppress the subscript $t​$ whenever possible. Please note that, for example, $a​$ stands for $a_t​$ --- it is not a constant coefficient but a process that changes with time $t​$.*
 
 ## Derivation
 
@@ -73,31 +89,4 @@ $$
 \end{align}
 $$
 
-## Notation
-
-|  symbol   | stands for                                                   |
-| :-------: | ------------------------------------------------------------ |
-|    $t$    | current time (time of option pricing)                        |
-|    $T$    | time of expiry of the option                                 |
-|   $S_t$   | asset price at time $t$, a geometric Brownian motion with drift rate $\mu$ and volatility rate $\sigma$ |
-| $\beta_t$ | bond price at time $t$, determined by constant interest rate $r$ |
-|   $V_t$   | value of the replicating portfolio at time $t$               |
-|   $a_t$   | units of the asset $S$ in the replicating portfolio $V$ at time $t$ |
-|   $b_t$   | units of the bond $\beta$  in the replicating portfolio $V$ at time $t$ |
-
-$t\ \ \qquad$ current time (time of option pricing)
-
-$T\ \qquad$ time of expiry of the option
-
-$S_t\qquad$ asset price at time $t$, a geometric Brownian motion with drift rate $\mu$ and volatility rate $\sigma$
-
-$\beta_t\qquad$ bond price at time $t$, determined by constant interest rate $r$
-
-$V_t\qquad$ value of the replicating portfolio at time $t$
-
-$a_t\qquad$ units of the asset $S$ in the replicating portfolio $V$ at time $t$
-
-$b_t\qquad$ units of the bond $\beta$  in the replicating portfolio $V$ at time $t$
-
-*To make the key idea stand out, we aggressively suppress the subscript $t$ whenever possible. Please note that for example $a$ stands for $a_t$ --- it is not a constant coefficient but a process that changes with time $t$.*
 
