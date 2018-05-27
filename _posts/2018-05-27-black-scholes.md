@@ -81,7 +81,7 @@ $T\ \qquad$ time of expiry of the option
 
 $S_t\qquad$ asset price at time $t$, governed by geometric Brownian motion with drift rate $\mu$ and volatility rate $\sigma$
 
-$\beta_t\qquad​$ bond price at time $t​$, governed by constant interest rate $r​$
+$\beta_t\qquad$ bond price at time d$t$, governed by constant interest rate $r$
 
 $V_t\qquad$ value of the replicating portfolio at time $t$
 
