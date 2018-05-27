@@ -10,28 +10,6 @@ mathjax: true
 
 **Uses** Ito Lemma
 
-## Notation
-
-$t$        current time
-
-$T$        time of expiry of the option
-
-$S_t$        asset price at time $t$, governed by geometric Brownian motion with drift rate $\mu$ and volatility rate $\sigma$
-
-$\beta_t$        bond price at time $t$, governed by constant interest rate $r$
-
-$V_t$        value of the replicating portfolio at time $t$
-
-$a_t$        units of the asset $S$ in the replicating portfolio $V$ at time $t$
-
-$b_t$        units of the bond $\beta$  in the replicating portfolio $V$ at time $t$
-
-
-
-*To make the key idea stand out, in what follows, we aggressively suppress the subscript $t$ whenever possible. Please note that for example $a$ is NOT a constant coefficient but a process that changes with time $t$.*
-
-
-
 ## Derivation
 
 **Step 1**	Price dynamics
@@ -95,6 +73,21 @@ $$
 \end{align}
 $$
 
+## Notation
+
+$t\qquad$ current time
+
+$T\qquad$ time of expiry of the option
+
+$S_t\qquad$ asset price at time $t$, governed by geometric Brownian motion with drift rate $\mu$ and volatility rate $\sigma$
+
+$\beta_t\qquad$ bond price at time $t$, governed by constant interest rate $r$
+
+$V_t\qquad$ value of the replicating portfolio at time $t$
+
+$a_t\qquad$ units of the asset $S$ in the replicating portfolio $V$ at time $t$
+
+$b_t\qquad$ units of the bond $\beta$  in the replicating portfolio $V$ at time $t$
 
 
-
+*To make the key idea stand out, we aggressively suppress the subscript $t$ whenever possible. Please note that for example $a$ stands for $a_t$ -- it is NOT a constant coefficient but a process that changes with time $t$.*
