@@ -13,6 +13,7 @@ mathjax: true
 ## Derivation
 
 **Step 1**	Price dynamics
+
 $$
 \begin{align}
     \frac{dS}{S} & = \mu dt + \sigma dB	\\
