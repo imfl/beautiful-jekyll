@@ -4,9 +4,9 @@ mathjax: true
 
 # A very quick derivation of Black-Scholes equation
 
-**Replicates** the cash flow of an European option by a self-financing portfolio of an asset and a bond
+**Replicates** cash flow of an European option by a self-financing portfolio of an asset and a bond
 
-**Assumes**  asset price is governed by a geometric Brownian motion
+**Assumes** asset price is governed by a geometric Brownian motion
 
 **Uses** Ito Lemma
 
@@ -23,11 +23,12 @@ mathjax: true
 |   $a_t$   | units of the asset $S$ in the replicating portfolio $V$ at time $t$ |
 |   $b_t$   | units of the bond $\beta$  in the replicating portfolio $V$ at time $t$ |
 
-*To highlight the key ideas, in what follows, we aggressively suppress the subscript $t$ whenever possible. Please note that, for example, $a$ stands for $a_t$ --- it is not a constant coefficient but a process that changes with time $t$.*
+*To focus on the main idea, in what follows, we aggressively suppress the subscript $t$ whenever possible. Please note that, for example, $a$ stands for $a_t$ --- it is not a constant coefficient but a process that changes with time $t$.*
 
 ### Derivation
 
-**Step 1** $\qquad​$ Price dynamics
+**Step 1** $\qquad$ Price dynamics
+
 $$
 \left\{
 \begin{align}
@@ -53,7 +54,6 @@ $$
 \end{align}
 $$
 
-
 **Step 4** $\qquad​$ Applies Ito Lemma
 
 $$
@@ -66,7 +66,6 @@ $$
 \end{align}
 $$
 
-
 **Step 5** $\qquad​$ Hedge ratio
 
 $$
@@ -75,7 +74,6 @@ $$
     \implies a_t & = \frac{\partial V}{\partial S}
 \end{align}
 $$
-
 
 **Step 6** $\qquad$ Black-Scholes equation
 
@@ -86,5 +84,3 @@ $$
     \implies & \frac{\partial V}{\partial t} + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 + \frac{\partial V}{\partial S} rS  - rV = 0
 \end{align}
 $$
-
-
