@@ -54,7 +54,7 @@ $$
 \end{align}
 $$
 
-**Step 4** $\quad$ Applies Ito Lemma to $(2)$, using $(1)$
+**Step 4** $\quad$ Applies Ito Lemma to $(2)$, making use of $(1)$
 
 $$
 \begin{align}
