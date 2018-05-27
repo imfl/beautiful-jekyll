@@ -1,4 +1,5 @@
 ---
+use-site-title: true
 mathjax: true
 ---
 
