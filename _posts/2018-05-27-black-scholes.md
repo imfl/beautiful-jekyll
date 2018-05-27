@@ -4,7 +4,7 @@ mathjax: true
 
 # A very quick derivation of Black-Scholes equation
 
-**Replicates** cash flow of an European option by a self-financing portfolio of an asset and a bond
+**Replicates** cash flow of an European option with a self-financing portfolio of an asset and a bond
 
 **Assumes** asset price is governed by a geometric Brownian motion
 
@@ -23,7 +23,7 @@ mathjax: true
 |   $a_t$   | units of the asset $S$ in the replicating portfolio $V$ at time $t$ |
 |   $b_t$   | units of the bond $\beta$  in the replicating portfolio $V$ at time $t$ |
 
-*To focus on the main idea, in what follows, we aggressively suppress the subscript $t$ whenever possible. Please note that, for example, $a$ stands for $a_t$ --- it is not a constant coefficient but a process that changes with time $t$.*
+*To focus on the main idea, in what follows, we aggressively suppress the subscript $t$. Please note that, for example, $a$ stands for $a_t$ --- it is not a constant coefficient but a process that changes with time $t$.*
 
 ### Derivation
 
@@ -38,7 +38,7 @@ $$
 \right.
 $$
 
-**Step 2** $\qquad​$ A replicating portfolio
+**Step 2** $\qquad$ Replicating portfolio
 
 $$
 V = a S + b \beta
@@ -66,7 +66,7 @@ $$
 \end{align}
 $$
 
-**Step 5** $\qquad​$ Hedge ratio
+**Step 5** $\qquad$ Hedge ratio
 
 $$
 \begin{align}
