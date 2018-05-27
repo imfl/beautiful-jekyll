@@ -1,3 +1,7 @@
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 # A very quick derivation of Black-Scholes equation and formula
 
 **Approach** replicate a contingent claim by a self-financing portfolio of asset and bonds
