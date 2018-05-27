@@ -82,7 +82,7 @@ $$
 \begin{align}
     & \bigg(\frac{\partial V}{\partial t} + \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt = \bigg(a\mu S +br\beta \bigg) dt \\~\\
     & b = \frac{V - aS}{\beta} \\~\\
-    & a = \frac{\partial{V}}{\partial{S}}\\~\\
+    & a = \frac{\partial{V}}{\partial{S}}
 \end{align}  \right.
 $$
 
