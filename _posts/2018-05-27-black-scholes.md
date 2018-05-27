@@ -11,6 +11,7 @@ mathjax: true
 **Uses** Ito Lemma
 
 **Step 1**
+
 $$
 \begin{align}
     \frac{dS}{S} & = \mu dt + \sigma dB	\\
@@ -18,10 +19,7 @@ $$
 \end{align}
 $$
 
-
-
 **Step 2**
-
 
 $$
 V = a S + b \beta
@@ -30,7 +28,6 @@ $$
 
 
 **Step 3**
-
 
 $$
 \begin{align}
@@ -43,6 +40,7 @@ $$
 $$
 
 **Step 4**
+
 $$
 \begin{align}
     dV & = a dS + b d\beta \\
@@ -50,7 +48,9 @@ $$
     & = \bigg(a\mu S +br\beta \bigg) dt + a\sigma S dB
 \end{align}
 $$
+
 **Step 5**
+
 $$
 \begin{align}
     \bigg( \frac{\partial V}{\partial S} \sigma S \bigg) dB & =  a\sigma S dB \\
