@@ -4,21 +4,45 @@ mathjax: true
 
 # A very quick derivation of Black-Scholes equation
 
-**Replicates** an option by a self-financing portfolio of an asset and a bond
+**Replicates** the cash flow of an European option by a self-financing portfolio of an asset and a bond
 
 **Assumes**  asset price is governed by a geometric Brownian process
 
 **Uses** Ito Lemma
+
+## Notation
+
+$t$	current time
+
+$T$	time of expiry of the option
+
+$S_t$	asset price at time $t$, governed by geometric Brownian motion with drift rate $\mu$ and volatility rate $\sigma$
+
+$\beta_t$	bond price at time $t$, governed by constant interest rate $r$
+
+$V_t$	value of the replicating portfolio at time $t$
+
+$a_t$	units of the asset $S$ in the replicating portfolio $V$ at time $t$
+
+$b_t$	units of the bond $\beta$  in the replicating portfolio $V$ at time $t$
+
+
+
+*To make the key idea stand out, in what follows, we aggressively suppress the subscript $t$ whenever possible. Please note that for example $a$ is NOT a constant coefficient but a process that changes with time $t$.*
+
+
 
 ## Derivation
 
 **Step 1**	Price dynamics
 
 $$
+\left\{
 \begin{align}
     \frac{dS}{S} & = \mu dt + \sigma dB	\\
     \frac{d\beta}{\beta} & = rdt
 \end{align}
+\right.
 $$
 
 **Step 2**	A replicating portfolio
@@ -65,7 +89,6 @@ $$
 
 $$
 \begin{align}
-
    & \bigg(\frac{\partial V}{\partial t} + \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt = \bigg(a\mu S +br\beta \bigg) dt \\
    & b = \frac{V - aS}{\beta} \\
     \implies & \frac{\partial V}{\partial t} + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 + \frac{\partial V}{\partial S} rS  - rV = 0
