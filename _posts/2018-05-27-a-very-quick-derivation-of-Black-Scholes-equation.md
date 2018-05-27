@@ -54,7 +54,7 @@ $$
 \end{align}
 $$
 
-**Step 4** $\quad$ Applies Ito Lemma to $(2)$, and using $(1)$
+**Step 4** $\quad$ Applies Ito Lemma to $(2)$, using $(1)$
 
 $$
 \begin{align}
@@ -87,6 +87,6 @@ $$
 $$
 
 $$
-\implies \frac{\partial V}{\partial t} + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 + \frac{\partial V}{\partial S} rS  - rV = 0
+\implies \frac{\partial V}{\partial t} + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 + \frac{\partial V}{\partial S} rS  - rV = 0 \tag{6}
 $$
 
