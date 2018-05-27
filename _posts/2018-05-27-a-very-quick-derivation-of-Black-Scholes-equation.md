@@ -23,7 +23,7 @@ mathjax: true
 |   $a_t$   | units of the asset $S$ in the replicating portfolio $V$ at time $t$ |
 |   $b_t$   | units of the bond $\beta$  in the replicating portfolio $V$ at time $t$ |
 
-*To focus on the main idea, in what follows, we aggressively suppress the subscript whenever possible. Please note that, for example, $a$ stands for $a_t$ --- <u>it is NOT a constant coefficient but a process that changes with time</u>.*
+*To focus on the main idea, in what follows, we aggressively suppress the subscript whenever possible. Please note that, for example, $a$ stands for $a_t$ --- it is NOT a constant coefficient but a process that changes with time $t$.*
 
 ### Derivation
 
@@ -75,7 +75,7 @@ $$
 \end{align}
 $$
 
-**Step 6** $\qquad$ Black-Scholes equation, by equating $(3)$ and $(4)$ on $dt$,  and plugging in $(2)$ and $(5)$
+**Step 6** $\qquad$ Black-Scholes equation, by equating $(3)$ and $(4)$ on $dt$,  and plugging in $(2)$ $(5)$
 
 $$
 \begin{align}
