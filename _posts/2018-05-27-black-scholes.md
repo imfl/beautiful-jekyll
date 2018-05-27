@@ -70,18 +70,6 @@ $$
 \end{align}
 $$
 
-**Step 7**
-$$
-V_t = e^{-r(T-t)} E_Q [ V_T | \mathscr{F}_t]
-$$
-**Step 8**
-$$
-\begin{align}
-    V_t & = e^{-r(T-t)} E_Q [ V_T | \mathscr{F}_t] \\
-    & = e^{-r(T-t)} E_Q [ (S_T - K)^+ | \mathscr{F}_t] \\
-\end{align}
-$$
-
 
 
 
