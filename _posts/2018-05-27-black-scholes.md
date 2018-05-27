@@ -63,7 +63,7 @@ $$
 $$
 
 
-**Step 6**	Black-Scholes model
+**Step 6**	Black-Scholes equation
 
 $$
 \begin{align}
@@ -75,13 +75,13 @@ $$
 
 ## Notation
 
-$t\qquad$ current time
+$t\ \ \qquad$ current time
 
-$T\qquad$ time of expiry of the option
+$T\ \qquad$ time of expiry of the option
 
 $S_t\qquad$ asset price at time $t$, governed by geometric Brownian motion with drift rate $\mu$ and volatility rate $\sigma$
 
-$\beta_t\qquad$ bond price at time $t$, governed by constant interest rate $r$
+$\beta_t\qquad​$ bond price at time $t​$, governed by constant interest rate $r​$
 
 $V_t\qquad$ value of the replicating portfolio at time $t$
 
@@ -89,5 +89,5 @@ $a_t\qquad$ units of the asset $S$ in the replicating portfolio $V$ at time $t$
 
 $b_t\qquad$ units of the bond $\beta$  in the replicating portfolio $V$ at time $t$
 
+*To make the key idea stand out, we aggressively suppress the subscript $t$ whenever possible. Please note that for example $a$ stands for $a_t$. It is not a constant coefficient but a process that changes with time $t$.*
 
-*To make the key idea stand out, we aggressively suppress the subscript $t$ whenever possible. Please note that for example $a$ stands for $a_t$ -- it is NOT a constant coefficient but a process that changes with time $t$.*
