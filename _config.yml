@@ -31,6 +31,7 @@ navbar-links:
     - Investment Strategies: "https://imfl.github.io/front/investment-strategies/index"
   GitHub: "https://github.com/imfl"
   Blog: "https://imfl.github.io/blog/index"
+  Test: "https://imfl.github.io/front/test/index"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
