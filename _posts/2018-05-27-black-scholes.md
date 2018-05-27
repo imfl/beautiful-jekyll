@@ -12,19 +12,19 @@ mathjax: true
 
 ## Notation
 
-$t$	current time
+$t$   current time
 
-$T$	time of expiry of the option
+$T$   time of expiry of the option
 
-$S_t$	asset price at time $t$, governed by geometric Brownian motion with drift rate $\mu$ and volatility rate $\sigma$
+$S_t$     asset price at time $t$, governed by geometric Brownian motion with drift rate $\mu$ and volatility rate $\sigma$
 
-$\beta_t$	bond price at time $t$, governed by constant interest rate $r$
+$\beta_t$     bond price at time $t$, governed by constant interest rate $r$
 
-$V_t$	value of the replicating portfolio at time $t$
+$V_t$     value of the replicating portfolio at time $t$
 
-$a_t$	units of the asset $S$ in the replicating portfolio $V$ at time $t$
+$a_t$     units of the asset $S$ in the replicating portfolio $V$ at time $t$
 
-$b_t$	units of the bond $\beta$  in the replicating portfolio $V$ at time $t$
+$b_t$     units of the bond $\beta$  in the replicating portfolio $V$ at time $t$
 
 
 
