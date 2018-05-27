@@ -6,7 +6,7 @@ mathjax: true
 
 **Approach** replicate a contingent claim by a self-financing portfolio of asset and bonds
 
-**Assumption**  asset price is governed by a geometric Brownian process.
+**Assumes**  asset price is governed by a geometric Brownian process.
 
 **Uses** Ito Lemma
 
@@ -57,5 +57,35 @@ $$
     \implies a_t & = \frac{\partial V}{\partial S}
 \end{align}
 $$
+
+
+
+**Step 6**
+$$
+\left\{
+\begin{align}
+
+    \bigg(\frac{\partial V}{\partial t} & + \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt = \bigg(a\mu S +br\beta \bigg) dt \\
+    b & = \frac{V - aS}{\beta} \\
+\end{align}
+\right.
+\\
+\implies
+\frac{\partial V}{\partial t} + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 + \frac{\partial V}{\partial S} rS  - rV = 0
+$$
+
+**Step 7**
+$$
+V_t = e^{-r(T-t)} E_Q [ V_T | \mathscr{F}_t]
+$$
+**Step 8**
+$$
+\begin{align}
+    V_t & = e^{-r(T-t)} E_Q [ V_T | \mathscr{F}_t] \\
+    & = e^{-r(T-t)} E_Q [ (S_T - K)^+ | \mathscr{F}_t] \\
+\end{align}
+$$
+
+
 
 
