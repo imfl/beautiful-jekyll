@@ -4,15 +4,17 @@ mathjax: true
 
 # A very quick derivation of Black-Scholes equation
 
-## Ideas
+#### Ideas
 
 **Replicates** the cash flow of an European option by a self-financing portfolio of an asset and a bond
 
-**Assumes**  asset price is governed by a geometric Brownian process
+**Assumes**  asset price is governed by a geometric Brownian motion
 
 **Uses** Ito Lemma
 
+
 ## Notation
+
 
 |  symbol   | stands for                                                   |
 | :-------: | ------------------------------------------------------------ |
@@ -24,11 +26,12 @@ mathjax: true
 |   $a_t$   | units of the asset $S$ in the replicating portfolio $V$ at time $t$ |
 |   $b_t$   | units of the bond $\beta$  in the replicating portfolio $V$ at time $t$ |
 
-*To highlight the key ideas, in what follows, we aggressively suppress the subscript $t​$ whenever possible. Please note that, for example, $a​$ stands for $a_t​$ --- it is not a constant coefficient but a process that changes with time $t​$.*
+*To highlight the key ideas, in what follows, we aggressively suppress the subscript $t$ whenever possible. Please note that, for example, $a$ stands for $a_t$ --- it is not a constant coefficient but a process that changes with time $t$.*
+
 
 ## Derivation
 
-**Step 1**	Price dynamics
+### **Step 1**	Price dynamics
 
 $$
 \left\{
