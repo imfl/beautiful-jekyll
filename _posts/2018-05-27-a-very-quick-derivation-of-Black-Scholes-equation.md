@@ -2,9 +2,7 @@
 mathjax: true
 ---
 
-# A very quick derivation of Black-Scholes equation
-
-**Replicates** cash flow of an European option with a self-financing portfolio of an asset and a bond
+**Replicates** cash flow of an option with a self-financing portfolio of an asset and a bond
 
 **Assumes** asset price is governed by a geometric Brownian motion
 
