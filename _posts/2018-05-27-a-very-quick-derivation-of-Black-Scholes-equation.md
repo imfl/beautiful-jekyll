@@ -27,7 +27,7 @@ mathjax: true
 
 ### Derivation
 
-**Step 1** $\qquad$ Price dynamics
+**Step 1** $\quad$ Price dynamics
 
 $$
 \left\{
@@ -38,13 +38,13 @@ $$
 \right.
 $$
 
-**Step 2** $\qquad$ Replicating portfolio
+**Step 2** $\quad$ Replicating portfolio
 
 $$
 V = a S + b \beta \tag{2}
 $$
 
-**Step 3** $\qquad$ Self-financing
+**Step 3** $\quad$ Self-financing
 
 $$
 \begin{align}
@@ -54,7 +54,7 @@ $$
 \end{align}
 $$
 
-**Step 4** $\qquad$ Applies Ito Lemma to $(2)$
+**Step 4** $\quad$ Applies Ito Lemma to $(2)$
 
 $$
 \begin{align}
@@ -66,7 +66,7 @@ $$
 \end{align}
 $$
 
-**Step 5** $\qquad$ Hedge ratio, by equating $(3)$ and $(4)$ on $dB$
+**Step 5** $\quad$ Hedge ratio, by equating $(3)$ and $(4)$ on $dB$
 
 $$
 \begin{align}
@@ -75,7 +75,7 @@ $$
 \end{align}
 $$
 
-**Step 6** $\qquad$ Black-Scholes equation, by equating $(3)$ and $(4)$ on $dt$,  and plugging in $(2)$ $(5)$
+**Step 6** $\quad$ Black-Scholes equation, by equating $(3)$ and $(4)$ on $dt$,  and using $(2)$ and $(5)$
 
 $$
 \begin{align}
