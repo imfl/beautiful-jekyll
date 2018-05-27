@@ -59,8 +59,8 @@ $$
 $$
 
 
-
 **Step 6**
+
 $$
 \begin{align}
 
