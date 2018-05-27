@@ -75,6 +75,16 @@ $$
 
 ## Notation
 
+| symbol | stands for                   |
+| ------ | ---------------------------- |
+| $t$    | current time                 |
+| $T$    | time of expiry of the option |
+|        |                              |
+|        |                              |
+|        |                              |
+|        |                              |
+|        |                              |
+
 $t\ \ \qquad$ current time
 
 $T\ \qquad$ time of expiry of the option
@@ -89,5 +99,5 @@ $a_t\qquad$ units of the asset $S$ in the replicating portfolio $V$ at time $t$
 
 $b_t\qquad$ units of the bond $\beta$  in the replicating portfolio $V$ at time $t$
 
-*To make the key idea stand out, we aggressively suppress the subscript $t$ whenever possible. Please note that for example $a$ stands for $a_t$. It is not a constant coefficient but a process that changes with time $t$.*
+*To make the key idea stand out, we aggressively suppress the subscript $t$ whenever possible. Please note that for example $a$ stands for $a_t$ ---- it is not a constant coefficient but a process that changes with time $t$.*
 
