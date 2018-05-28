@@ -55,6 +55,8 @@ $$
 Pr(X \geq aEX) \leq \frac{1}{a} \tag{2}
 $$
 
+一个非负随机变量，出现2倍均值的概率不会超过$\dfrac12$，出现3倍均值的概率不会超过$\dfrac13$，以此类推。
+
 ### Chebyshev's Inequality
 
 We don't like the requirement that $X$ be nonnegative. We want an inequality that holds for all random variables. What should we do? Variance is guaranteed to be nonnegative, but that's not a random variable. We are close.
@@ -84,6 +86,8 @@ $$
 
 which is Chebyshev's Inequality.
 
+一个随机变量，在均值2倍标准差之外的概率不会超过$\dfrac14$，在均值3倍标准差之外的概率不会超过$\dfrac19$，以此类推。
+
 ## Application
 
 Though just a special case of Markov's Inequality, Chebyshev's Inequality is a very useful one.
@@ -101,7 +105,7 @@ Let $z = \frac{y - \mu}{\sigma} = 1.6$. Assuming normal distribution, $\Phi(z) =
 According to Chebyshev's Inequality, 
 
 $$
-Pr \big( |Y - 60| \geq 1.6 \times 10\big) \leq \dfrac{1}{1.6^2} = 40 \%
+Pr \big( |Y - 60| \geq 1.6 \times 10\big) \leq \frac{1}{1.6^2} = 40 \%
 $$
 
 Assuming only symmetric distribution, I should be among top 20%. Not bad!
