@@ -100,10 +100,10 @@ graph TD
     B[2. Replicating Portfolio] --self-financing--> C[3. dV]
     B --Itô's Lemma--> D[4. dV]
     A -.-> D
-    C --$dt$--> E[5. Hedge Ratio]
-    C --> F[6. Black-Scholes Equation]
-    D --> E
-    D --> F
+    C --$dB$--> E[5. Hedge Ratio]
+    C --$dt$--> F[6. Black-Scholes Equation]
+    D --$dB$--> E
+    D --$dt$--> F
     B -.->F
     E -.-> F
 </div>
