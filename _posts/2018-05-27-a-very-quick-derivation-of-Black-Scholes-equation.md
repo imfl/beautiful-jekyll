@@ -48,7 +48,7 @@ V = a S + b \beta \tag{2}
 $$
 
 
-**Step 3** $\quad$ Self-financing, using $(1)$
+**Step 3** $\quad$ Self-financing
 
 
 $$
@@ -60,7 +60,7 @@ $$
 $$
 
 
-**Step 4** $\quad$ Applies Itô's Lemma to replicating portfolio, using $(1)$ and $(2)$
+**Step 4** $\quad$ Applies Itô's Lemma to replicating portfolio
 
 
 $$
@@ -81,7 +81,7 @@ $$
 $$
 
 
-**Step 6** $\quad$ Black-Scholes equation, by equating $(3)$ and $(4)$ on $dt$, using $(2)$ and $(5)$
+**Step 6** $\quad$ Black-Scholes equation, by equating $(3)$ and $(4)$ on $dt$ and using hedge ratio
 
 
 $$
