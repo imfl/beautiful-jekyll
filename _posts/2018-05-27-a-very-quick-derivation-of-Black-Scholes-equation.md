@@ -102,13 +102,13 @@ $$
 <div class="mermaid">
 graph TD
     A[1. Price Dynamics] -.-> C[3. dV]
-    B[6. Black-Scholes Equation] --self-financing--> C[3. dV]
-    B[6. Black-Scholes Equation] --Itô's Lemma--> D[4. dV]
-    A[1. Price Dynamics] -.-> D[4. dV]
-    C[3. dV] --$dB$--> E[5. Hedge Ratio]
-    C[3. dV] --$dt$--> F[6. Black-Scholes Equation]
-    D[4. dV] --$dB$--> E[5. Hedge Ratio]
-    D[4. dV] --$dt$--> F[6. Black-Scholes Equation]
-    B[6. Black-Scholes Equation] -.->F[6. Black-Scholes Equation]
-    E[5. Hedge Ratio] -.-> F[6. Black-Scholes Equation]
+    B[2. Replicating Portfolio] --self-financing--> C
+    B --Itô's Lemma--> D[4. dV]
+    A -.-> D
+    C --dB--> E[5. Hedge Ratio]
+    C --dt--> F[6. Black-Scholes Equation]
+    D --dB--> E
+    D --dt--> F
+    B -.->F
+    E -.-> F
 </div>
