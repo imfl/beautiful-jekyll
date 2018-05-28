@@ -23,9 +23,9 @@ mermaid: true
 |   $a_t$   | units of the asset $S$ in the replicating portfolio $V$ at time $t$ |
 |   $b_t$   | units of the bond $\beta$  in the replicating portfolio $V$ at time $t$ |
 
-*To focus on the main idea, in what follows, we aggressively suppress the subscript whenever possible. Please note that, for example, $a$ stands for $a_t$ --- it is NOT a constant coefficient but a process that changes with time $t$.*
-
 ## Derivation
+
+*To focus on the main idea, in what follows, we aggressively suppress the subscript whenever possible. Please note that, for example, $a$ stands for $a_t$ --- <u>it is NOT a constant coefficient but a process that changes with time</u>.*
 
 **Step 1** $\quad$ Price dynamics
 
@@ -49,40 +49,40 @@ $$
 $$
 \begin{align}
     dV & = a dS + b d\beta \\
-    & = a \bigg(\mu S dt + \sigma S dB \bigg) + br\beta dt \\
+    & = a \bigg(\mu S dt + \sigma S dB \bigg) + br\beta dt &&\cdots\quad\text{using (1)} \\
     & = \bigg(a\mu S +br\beta \bigg) dt + a\sigma S dB \tag{3}
 \end{align}
 $$
 
-**Step 4** $\quad$ Applies Itô's Lemma to $(2)$, making use of $(1)$
+**Step 4** $\quad$ Applies Itô's Lemma
 
 $$
 \begin{align}
     dV & = dV(t, S) \\
-    & = \frac{\partial V}{\partial t} dt + \frac{\partial V}{\partial S} dS + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2}d\langle S \rangle \\
-    & = \frac{\partial V}{\partial t} dt + \frac{\partial V}{\partial S} \bigg(\mu S dt + \sigma S dB \bigg) + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 dt \\
+    & = \frac{\partial V}{\partial t} dt + \frac{\partial V}{\partial S} dS + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2}d\langle S \rangle &&\cdots\quad\text{Ito's Lemma} \\
+    & = \frac{\partial V}{\partial t} dt + \frac{\partial V}{\partial S} \bigg(\mu S dt + \sigma S dB \bigg) + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 dt &&\cdots\quad\text{using (1)} \\
     & = \bigg(\frac{\partial V}{\partial t} + \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt + \bigg( \frac{\partial V}{\partial S} \sigma S \bigg) dB \tag{4}
 
 \end{align}
 $$
 
-**Step 5** $\quad$ Hedge ratio, by equating $(3)$ and $(4)$ on $dB$
+**Step 5** $\quad$ Hedge ratio
 
 $$
 \begin{align}
-    \bigg( \frac{\partial V}{\partial S} \sigma S \bigg) dB & =  a\sigma S dB \\
+    \bigg( \frac{\partial V}{\partial S} \sigma S \bigg) dB & =  a\sigma S dB && \cdots\quad\text{equating (3) and (4) on $dB$}\\
     \implies a_t & = \frac{\partial V}{\partial S} \tag{5}
 \end{align}
 $$
 
-**Step 6** $\quad$ Black-Scholes equation, by equating $(3)$ and $(4)$ on $dt$,  and using $(2)$ and $(5)$
+**Step 6** $\quad$ Black-Scholes equation
 
 $$
 \left\{
 \begin{align}
-    & \bigg(\frac{\partial V}{\partial t} + \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt = \bigg(a\mu S +br\beta \bigg) dt \\~\\
-    & b = \frac{V - aS}{\beta} \\~\\
-    & a = \frac{\partial{V}}{\partial{S}}
+    & \bigg(\frac{\partial V}{\partial t} + \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt = \bigg(a\mu S +br\beta \bigg) dt && \cdots\quad\text{equating (3) and (4) on $dt$} \\~\\
+    & b = \frac{V - aS}{\beta} &&\cdots\quad\text{using (2)} \\~\\
+    & a = \frac{\partial{V}}{\partial{S}} &&\cdots\quad\text{using (5)}
 \end{align}  \right.
 $$
 
