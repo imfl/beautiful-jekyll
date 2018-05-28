@@ -9,7 +9,7 @@ mathjax: true
 
 **Uses** Ito Lemma
 
-### Notation
+## Notation
 
 
 |  symbol   | stands for                                                   |
@@ -25,7 +25,7 @@ mathjax: true
 
 *To focus on the main idea, in what follows, we aggressively suppress the subscript whenever possible. Please note that, for example, $a$ stands for $a_t$ --- it is NOT a constant coefficient but a process that changes with time $t$.*
 
-### Derivation
+## Derivation
 
 **Step 1** $\quad$ Price dynamics
 
@@ -90,3 +90,21 @@ $$
 \implies \frac{\partial V}{\partial t} + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 + \frac{\partial V}{\partial S} rS  - rV = 0 \tag{6}
 $$
 
+## Flow
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="mermaid.min.css">
+</head>
+<body>
+  <div class="mermaid">
+  graph LR
+      A --- B
+      B-->C[fa:fa-ban forbidden]
+      B-->D(fa:fa-spinner);
+  </div>
+  <script src="mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad:true});</script>
+</body>
+</html>
