@@ -90,7 +90,7 @@ which is Chebyshev's Inequality.
 
 ## Application
 
-Though just a special case of Markov's Inequality, Chebyshev's Inequality is a very useful one.
+Though just a special case of Markov's Inequality, Chebyshev's Inequality is a very useful one, because it makes no assumptions about the distribution.
 
 虽然切比雪夫不等式仅仅是马尔可夫不等式的一个特例，但是它非常实用，因为它不假设任何分布。
 
