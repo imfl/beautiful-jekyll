@@ -93,9 +93,7 @@ Advanced algorithm is a tough course in computer science. The average score for 
 
 我得了76分，我大概排在什么位置呢？
 
-Let $z = \frac{y - \mu}{\sigma} = 1.6$. Assuming normal distribution, $\Phi(z) = 95\%$. I should be among top 5%!
-
-Is that too optimistic? May be. The distribution may not be normal at all. Let's be more conservative.
+Let $z = \frac{y - \mu}{\sigma} = 1.6$. Assuming normal distribution, $\Phi(z) = 95\%$. I was top 5%! Or was I? The distribution may not be normal at all. Let's be more conservative.
 
 According to Chebyshev's Inequality, 
 
