@@ -4,7 +4,7 @@ mathjax: true
 mermaid: true
 ---
 
-考虑一枚不均匀的骰子。无论如何它如何不均匀，摇得3点—6点的概率，都不会超过它期望的​$\frac13$。
+考虑一枚不均匀的骰子。无论如何它如何不均匀，摇得1点或2点的概率，必然会超过它期望的​$\frac13$。
 
 Consider an unfair die. No matter unfair it is made, we can assert a relationship between the probability and the expectation of its result $X$. For example, the probability that it is rolled 3, 4, 5 or 6 cannot be more than $\frac13$ of its expectation. That is,
 $$
