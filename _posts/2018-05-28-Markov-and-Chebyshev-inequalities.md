@@ -40,8 +40,8 @@ $$
 \begin{align}
     EX & = \int_0^{\infty} xdP(x) \\
     & = \int_0^c xdP(x) + \int_c^{\infty} xdP(x) \\
-    & \geq \int_c^{\infty} xdP(x)  \tag*{first shrinkage 首次放缩}\\
-    & \geq \int_c^{\infty} kdP(x)  \tag*{second shrinkage 再次放缩}\\
+    & \geq \int_c^{\infty} xdP(x)  \tag*{first shrinkage}\\
+    & \geq \int_c^{\infty} kdP(x)  \tag*{second shrinkage}\\
     & = c \int_c^{\infty} dP(x) \\
     & = c\ Pr(X  \geq c) \\~\\
     \implies & Pr(X \geq c) \leq \frac{EX}{c} \tag{1}
