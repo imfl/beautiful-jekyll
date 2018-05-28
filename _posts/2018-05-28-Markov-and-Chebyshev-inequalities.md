@@ -54,7 +54,7 @@ $$
 
 ### Chebyshev's Inequality
 
-Now $X \geq 0\ a.s.$ is a constraint we don't like. We don't make any pledge about a random variable before we use it. Or can we? We know variance is guaranteed to be nonnegative. But that's not a random variable. We are close. Setting $X =  (Y-EY)^2$, where $Y$ can be any random variable that has an expectation and a variance. 
+Now $X \geq 0\ a.s.$ is a constraint we don't like. We don't want to make any pledge about a random variable before we use it. Or can we? We know variance is guaranteed to be nonnegative. But that's not a random variable. We are close. Setting $X =  (Y-EY)^2$, where $Y$ can be any random variable that has an expectation and a variance. 
 
 We have
 
