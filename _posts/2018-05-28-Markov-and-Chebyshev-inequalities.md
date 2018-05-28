@@ -87,7 +87,7 @@ Though just a special case of Markov's Inequality, Chebyshev's Inequality is a v
 
 虽然切比雪夫不等式仅仅是马尔可夫不等式的一个特例，但是它非常实用。
 
-Advanced algorithm is a tough course in computer science. The average score for the final was merely $\mu = 60$, with a standard deviation $\sigma = 10$. For privacy reasons, that's all I was let know. I scored $y = 76$. How good was I?
+Advanced algorithm is a tough course in computer science. The average score for the final was merely $\mu = 60$, with a standard deviation $\sigma = 10$. I scored $y = 76$. How good was I?
 
 高级算法是一门很难的计算机课程，期末的平均分仅仅有60分，标准差是10。我得了76分，我大概排在什么位置呢？
 
