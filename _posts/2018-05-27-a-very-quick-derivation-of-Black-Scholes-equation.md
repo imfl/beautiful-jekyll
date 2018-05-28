@@ -56,6 +56,7 @@ $$
 $$
 
 **Step 4** $\quad$ Applies Itô's Lemma to $(2)$, making use of $(1)$
+
 $$
 \begin{align}
     dV & = dV(t, S) \\
