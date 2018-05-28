@@ -17,7 +17,7 @@ mermaid: true
 |    $t$    | current time (time of option pricing)                        |
 |    $T$    | time of expiry of the option                                 |
 |   $B_t$   | Brownian motion                                              |
-|   $S_t$   | asset price at time $t$, a geometric Brownian motion with drift rate $\mu$ and volatility rate $\sigma$ |
+|   $S_t$   | asset price at time $t$, governed by a geometric Brownian motion with drift rate $\mu$ and volatility rate $\sigma$ |
 | $\beta_t$ | bond price at time $t$, determined by constant interest rate $r$ |
 |   $V_t$   | value of the replicating portfolio at time $t$               |
 |   $a_t$   | units of the asset $S$ in the replicating portfolio $V$ at time $t$ |
