@@ -17,7 +17,7 @@ Let's start with its expectation $EX = \sum_{x = 1}^6 x Pr(X=x)$. It is essentia
 We will shrink it twice. 
 
 1. We shrink it by ignoring any contribution to expectation when $X$ is rolled $1$ or $2$. That is, $$EX \geq \sum_{x = 3}^6 x Pr(X=x)$$.
-2. We further shrink it by noting that when $X$ is rolled 3, 4, 5, or 6, it is at least rolled 3. This nonsense leads to $\sum_{x = 3}^6 x Pr(X=x) \geq \sum_{x = 3}^6 3 Pr(X=x) = 3 \sum_{x = 3} ^6 Pr(X=x) = 3 Pr(X \geq 3)$.
+2. We further shrink it by observing that when $X$ is rolled 3, 4, 5, or 6, it is at least rolled 3. This nonsense leads to $\sum_{x = 3}^6 x Pr(X=x) \geq \sum_{x = 3}^6 3 Pr(X=x) = 3 \sum_{x = 3} ^6 Pr(X=x) = 3 Pr(X \geq 3)$.
 
 This two-step shrinkage is the intuition for Markov's inequality.
 
