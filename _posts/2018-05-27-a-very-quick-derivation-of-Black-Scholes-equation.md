@@ -29,6 +29,7 @@ mermaid: true
 
 **Step 1** $\quad$ Price dynamics
 
+
 $$
 \left\{
 \begin{align}
@@ -38,57 +39,62 @@ $$
 \right.
 $$
 
+
 **Step 2** $\quad$ Replicating portfolio
+
 
 $$
 V = a S + b \beta \tag{2}
 $$
 
-**Step 3** $\quad$ Self-financing
+
+**Step 3** $\quad$ Self-financing, using (1)
+
 
 $$
 \begin{align}
     dV & = a dS + b d\beta \\
-    & = a \bigg(\mu S dt + \sigma S dB \bigg) + br\beta dt \tag*{$\cdots\quad$ using (1)} \\
+    & = a \bigg(\mu S dt + \sigma S dB \bigg) + br\beta dt \\
     & = \bigg(a\mu S +br\beta \bigg) dt + a\sigma S dB \tag{3}
 \end{align}
 $$
 
-**Step 4** $\quad$ Applies Itô's Lemma
+
+**Step 4** $\quad$ Applies Itô's Lemma to replicating portfolio, using (1)
+
 
 $$
 \begin{align}
     dV & = dV(t, S) \\
-    & = \frac{\partial V}{\partial t} dt + \frac{\partial V}{\partial S} dS + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2}d\langle S \rangle \tag*{$\cdots\quad$ Ito's Lemma} \\
-    & = \frac{\partial V}{\partial t} dt + \frac{\partial V}{\partial S} \bigg(\mu S dt + \sigma S dB \bigg) + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 dt \tag*{$\cdots\quad$ using (1)} \\
+    & = \frac{\partial V}{\partial t} dt + \frac{\partial V}{\partial S} dS + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2}d\langle S \rangle \\
+    & = \frac{\partial V}{\partial t} dt + \frac{\partial V}{\partial S} \bigg(\mu S dt + \sigma S dB \bigg) + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 dt \\
     & = \bigg(\frac{\partial V}{\partial t} + \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt + \bigg( \frac{\partial V}{\partial S} \sigma S \bigg) dB \tag{4}
-
 \end{align}
 $$
 
-**Step 5** $\quad$ Hedge ratio
+**Step 5** $\quad$ Hedge ratio, by equating (3) and (4) on $dB$
+
+
+$$
+\bigg( \frac{\partial V}{\partial S} \sigma S \bigg) dB =  a\sigma S dB 
+\implies a_t = \frac{\partial V}{\partial S} \tag{5}
+$$
+
+
+**Step 6** $\quad$ Black-Scholes equation, by equating (3) and (4) on $dt$, using (2) and (5)
+
 
 $$
 \begin{align}
-    \bigg( \frac{\partial V}{\partial S} \sigma S \bigg) dB & =  a\sigma S dB \tag*{$\cdots\quad$ equating (3) and (4) on $dB$}\\
-    \implies a_t & = \frac{\partial V}{\partial S} \tag{5}
+& \left\{
+\begin{aligned}
+   &  \bigg(\frac{\partial V}{\partial t}+ \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt  = \bigg(a\mu S +br\beta \bigg) \\
+    b & = \frac{V - aS}{\beta} \\
+    a &= \frac{\partial{V}}{\partial{S}} \\
+\end{aligned}
+\right.\\~\\
+\implies &\frac{\partial V}{\partial t} + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 + \frac{\partial V}{\partial S} rS  - rV = 0 \tag{6}
 \end{align}
-$$
-
-**Step 6** $\quad$ Black-Scholes equation
-
-$$
-\left\{
-\begin{align}
-    \bigg(\frac{\partial V}{\partial t}+ \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt  & = \bigg(a\mu S +br\beta \bigg) \tag*{$\cdots\quad$ equating (3) and (4) on $dt$} \\~\\
-    b & = \frac{V - aS}{\beta} \tag*{$\cdots\quad$ using (2)} \\~\\
-    a & = \frac{\partial{V}}{\partial{S}} \tag*{$\cdots\quad$ using (5)} \\
-\end{align}
-\right.
-$$
-
-$$
-\implies \frac{\partial V}{\partial t} + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 + \frac{\partial V}{\partial S} rS  - rV = 0 \tag{6}
 $$
 
 ## Flow
