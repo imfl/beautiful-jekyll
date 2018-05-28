@@ -12,9 +12,7 @@ mermaid: true
 
 ## Notation
 
-$$
-\\
-$$
+<br>
 
 |  symbol   | stands for                                                   |
 | :-------: | ------------------------------------------------------------ |
@@ -102,7 +100,7 @@ graph TD
     B[2. Replicating Portfolio] --self-financing--> C[3. dV]
     B --Itô's Lemma--> D[4. dV]
     A -.-> D
-    C --> E[5. Hedge Ratio]
+    C --$dt$--> E[5. Hedge Ratio]
     C --> F[6. Black-Scholes Equation]
     D --> E
     D --> F
