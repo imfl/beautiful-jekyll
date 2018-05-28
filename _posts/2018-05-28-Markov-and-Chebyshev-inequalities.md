@@ -6,8 +6,9 @@ mermaid: true
 
 考虑一枚不均匀的骰子。无论它如何不均匀，摇得3到6点的概率，都不可能超过期望的1/3。为什么？
 
-Consider an unfair die. No matter unfair it is made, we assert that the probability that it is rolling a 3, 4, 5 or 6 cannot be more than $\frac13$ of the expectation. That is, for its result $X$,
+## Intuition
 
+Consider an unfair die. No matter unfair it is made, we assert that the probability that it is rolling a 3, 4, 5 or 6 cannot be more than $\frac13$ of the expectation. That is, for its result $X$,
 $$
 Pr (X \geq 3) \leq \frac{1}{3} EX
 $$
@@ -24,7 +25,7 @@ $$
 \sum_{x = 3}^6 x Pr(X=x) \geq \sum_{x = 3}^6 3 Pr(X=x) = 3 \sum_{x = 3} ^6 Pr(X=x) = 3 Pr(X \geq 3)
 $$
 
-This two-step shrinkage is the intuition for Markov's inequality.
+This two-step shrinkage is key to proving Markov's inequality.
 
 两步放缩法是证明马尔可夫不等式的关键。
 
