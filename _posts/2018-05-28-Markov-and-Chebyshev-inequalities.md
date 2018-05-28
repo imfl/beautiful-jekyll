@@ -89,9 +89,7 @@ Though just a special case of Markov's Inequality, Chebyshev's Inequality is a v
 
 Advanced algorithm is a tough course in computer science. The average score for the final was merely $\mu = 60$, with a standard deviation $\sigma = 10$. For privacy reasons, that's all I was let know. I scored $y = 76$. How good was I?
 
-高级算法是一门很难的计算机课程，期末的平均分仅仅有60分，标准差是10。
-
-我得了76分，我大概排在什么位置呢？
+高级算法是一门很难的计算机课程，期末的平均分仅仅有60分，标准差是10。我得了76分，我大概排在什么位置呢？
 
 Let $z = \frac{y - \mu}{\sigma} = 1.6$. Assuming normal distribution, $\Phi(z) = 95\%$. I was top 5%! Or was I? The distribution may not be normal at all. Let's be more conservative.
 
@@ -107,6 +105,4 @@ Assuming only symmetric distribution, I should be among top 20%. Not bad!
 
 让我们试试切比雪夫不等式，它不假设任何分布。
 
-我在平均分的1.6倍标准差之外，无论怎样奇怪的分布，全班最多只有40%的同学在这个范围内。
-
-如果分数分布基本对称的话，我就应该排在前20%，还不错：）
+我在平均分的1.6倍标准差之外，无论怎样奇怪的分布，全班最多只有40%的同学在这个范围内。如果分数分布基本对称的话，我就应该排在前20%，还不错：）
