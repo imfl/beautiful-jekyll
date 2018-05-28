@@ -49,7 +49,7 @@ $$
 $$
 \begin{align}
     dV & = a dS + b d\beta \\
-    & = a \bigg(\mu S dt + \sigma S dB \bigg) + br\beta dt &&\cdots\quad\text{using (1)} \\
+    & = a \bigg(\mu S dt + \sigma S dB \bigg) + br\beta dt \tag*{$\cdots\quad$ using (1)} \\
     & = \bigg(a\mu S +br\beta \bigg) dt + a\sigma S dB \tag{3}
 \end{align}
 $$
@@ -59,8 +59,8 @@ $$
 $$
 \begin{align}
     dV & = dV(t, S) \\
-    & = \frac{\partial V}{\partial t} dt + \frac{\partial V}{\partial S} dS + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2}d\langle S \rangle &&\cdots\quad\text{Ito's Lemma} \\
-    & = \frac{\partial V}{\partial t} dt + \frac{\partial V}{\partial S} \bigg(\mu S dt + \sigma S dB \bigg) + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 dt &&\cdots\quad\text{using (1)} \\
+    & = \frac{\partial V}{\partial t} dt + \frac{\partial V}{\partial S} dS + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2}d\langle S \rangle \tag*{$\cdots\quad$ Ito's Lemma} \\
+    & = \frac{\partial V}{\partial t} dt + \frac{\partial V}{\partial S} \bigg(\mu S dt + \sigma S dB \bigg) + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 dt \tag*{$\cdots\quad$ using (1)} \\
     & = \bigg(\frac{\partial V}{\partial t} + \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt + \bigg( \frac{\partial V}{\partial S} \sigma S \bigg) dB \tag{4}
 
 \end{align}
@@ -70,7 +70,7 @@ $$
 
 $$
 \begin{align}
-    \bigg( \frac{\partial V}{\partial S} \sigma S \bigg) dB & =  a\sigma S dB && \cdots\quad\text{equating (3) and (4) on $dB$}\\
+    \bigg( \frac{\partial V}{\partial S} \sigma S \bigg) dB & =  a\sigma S dB \tag*{$\cdots\quad$ equating (3) and (4) on $dB$}\\
     \implies a_t & = \frac{\partial V}{\partial S} \tag{5}
 \end{align}
 $$
@@ -80,10 +80,11 @@ $$
 $$
 \left\{
 \begin{align}
-    & \bigg(\frac{\partial V}{\partial t} + \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt = \bigg(a\mu S +br\beta \bigg) dt && \cdots\quad\text{equating (3) and (4) on $dt$} \\~\\
-    & b = \frac{V - aS}{\beta} &&\cdots\quad\text{using (2)} \\~\\
-    & a = \frac{\partial{V}}{\partial{S}} &&\cdots\quad\text{using (5)}
-\end{align}  \right.
+    \bigg(\frac{\partial V}{\partial t}+ \frac{\partial V}{\partial S} \mu S + \frac12 \frac{\partial ^ 2 V}{\partial S ^ 2} \sigma^2 S^2 \bigg) dt  & = \bigg(a\mu S +br\beta \bigg) \tag*{$\cdots\quad$ equating (3) and (4) on $dt$} \\~\\
+    b & = \frac{V - aS}{\beta} \tag*{$\cdots\quad$ using (2)} \\~\\
+    a & = \frac{\partial{V}}{\partial{S}} \tag*{$\cdots\quad$ using (5)} \\
+\end{align}
+\right.
 $$
 
 $$
