@@ -3,8 +3,6 @@ use-site-title: true
 mathjax: true
 ---
 
-<script src="/js/mermaid.full.min.js"></script>
-
 **Replicates** cash flow of an option with a self-financing portfolio of an asset and a bond
 
 **Assumes** asset price is governed by a geometric Brownian motion
