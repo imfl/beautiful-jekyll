@@ -54,10 +54,9 @@ $$
 
 ### Chebyshev's Inequality
 
-Now $X \geq 0\ a.s.$ is a constraint we don't like. We don't want to make any pledge about a random variable before we use it. Or can we? We know variance is guaranteed to be nonnegative. But that's not a random variable. We are close. Setting $X =  (Y-EY)^2$, where $Y$ can be any random variable that has an expectation and a variance. 
+We don't like the requirement that $X$ be nonnegative. We want an inequality that holds for all random variables. What should we do? Variance is guaranteed to be nonnegative, but that's not a random variable. We are close.
 
-We have
-
+Setting $X =  (Y-EY)^2$, where $Y$ can be any random variable that has an expectation and a variance, we have
 $$
 Pr\bigg( (Y-EY)^2 \geq c \bigg) \leq \frac{Var(Y)}{c} \tag{3}
 $$
@@ -82,3 +81,30 @@ $$
 
 which is Chebyshev's Inequality.
 
+## Application
+
+Though just a special case of Markov's Inequality, Chebyshev's Inequality is a very useful one.
+
+虽然切比雪夫不等式仅仅是马尔可夫不等式的一个特例，但是它非常实用。
+
+Advanced algorithm is a tough course in computer science. The average score for the final was merely $\mu = 60$, with a standard deviation $\sigma = 10$. For privacy reasons, that's all I was let know. I scored $y = 76$. How good was I?
+
+高级算法是一门很难的计算机课程，期末的平均分仅仅有60分，标准差是10。
+
+我得了76分，我大概排在什么位置呢？
+
+Let $z = \frac{y - \mu}{\sigma} = 1.6$. Assuming normal distribution, $\Phi(z) = 95\%$. I should be among top 5%!
+
+Is that too optimistic? May be. The distribution may not be normal at all. Let's be more conservative.
+
+According to Chebyshev's Inequality, $Pr \big( |Y - 60| \geq 1.6 \times 10\big) \leq \dfrac{1}{1.6^2} = 40 \%$.
+
+Assuming only symmetric distribution, I should be among top 20%. Not bad!
+
+假设正态分布，我就排在前5%。不过，分数的分布可能一点也不正态！
+
+让我们试试切比雪夫不等式，它不假设任何分布。
+
+我在平均分的1.6倍标准差之外，无论怎样奇怪的分布，全班最多只有40%的同学在这个范围内。
+
+如果分数分布基本对称的话，我就应该排在前20%，还不错：）
