@@ -4,6 +4,23 @@ mathjax: true
 mermaid: true
 ---
 
+考虑一枚不均匀的骰子。无论如何它如何不均匀，摇得3点—6点的概率，都不会超过它期望的​$\frac13$。
+
+Consider an unfair die. No matter unfair it is made, we can assert a relationship between the probability and the expectation of its result $X$. For example, the probability that it is rolled 3, 4, 5 or 6 cannot be more than $\frac13$ of its expectation. That is,
+$$
+Pr (X \geq 3) \leq \frac{1}{3} EX
+$$
+Why?
+
+Let's start with its expectation $EX = \sum_{x = 1}^6 x Pr(X=x)$. It is essentially a weighted average. 
+
+We will shrink it twice. 
+
+1. We shrink it by ignoring any contribution to expectation when $X$ is rolled $1$ or $2$. That is, $$EX \geq \sum_{x = 3}^6 x Pr(X=x)$$.
+2. We further shrink it by noting that when $X$ is rolled 3, 4, 5, or 6, it is at least rolled 3. This nonsense leads to $\sum_{x = 3}^6 x Pr(X=x) \geq \sum_{x = 3}^6 3 Pr(X=x) = 3 \sum_{x = 3} ^6 Pr(X=x) = 3 Pr(X \geq 3)$.
+
+This two-step shrinkage is the intuition for Markov's inequality.
+
 ## Derivation
 
 ### Markov's Inequality
@@ -25,6 +42,7 @@ $$
 which is Markov's Inequality.
 
 As an alternative form, setting $c = a EX$, where $a > 1$, we have
+
 $$
 Pr(X \geq aEX) \leq \frac{1}{a} \tag{2}
 $$
