@@ -4,8 +4,6 @@ mathjax: true
 mermaid: true
 ---
 
-[Notation](#user-content-notation)
-
 **Replicates** cash flow of an option with a self-financing portfolio of an asset and a bond
 
 **Assumes** asset price is governed by a geometric Brownian motion
