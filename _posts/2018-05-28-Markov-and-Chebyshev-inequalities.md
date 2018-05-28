@@ -6,7 +6,7 @@ mermaid: true
 
 考虑一枚不均匀的骰子。无论它如何不均匀，摇得3点到6点的概率，都不可能超过期望的1/3。为什么？
 
-Consider an unfair die. No matter unfair it is made, we can assert a relationship between the probability and the expectation of its result $X$. For example, the probability that it is rolled 3, 4, 5 or 6 cannot be more than $\frac13$ of its expectation. That is,
+Consider an unfair die. No matter unfair it is made, we assert that the probability that it is rolled 3, 4, 5 or 6 cannot be more than $\frac13$ of its expectation. That is, for its result $X$,
 $$
 Pr (X \geq 3) \leq \frac{1}{3} EX
 $$
