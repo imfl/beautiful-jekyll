@@ -60,7 +60,7 @@ $$
 $$
 
 
-**Step 4** $\quad$ Applies Itô's Lemma to replicating portfolio, using $(1)$
+**Step 4** $\quad$ Applies Itô's Lemma to replicating portfolio, using $(1)$ and $(2)$
 
 
 $$
