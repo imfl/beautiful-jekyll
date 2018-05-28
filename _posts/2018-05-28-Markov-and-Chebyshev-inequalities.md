@@ -97,7 +97,11 @@ Let $z = \frac{y - \mu}{\sigma} = 1.6$. Assuming normal distribution, $\Phi(z) =
 
 Is that too optimistic? May be. The distribution may not be normal at all. Let's be more conservative.
 
-According to Chebyshev's Inequality, $Pr \big( |Y - 60| \geq 1.6 \times 10\big) \leq \dfrac{1}{1.6^2} = 40 \%$.
+According to Chebyshev's Inequality, 
+
+$$
+Pr \big( |Y - 60| \geq 1.6 \times 10\big) \leq \dfrac{1}{1.6^2} = 40 \%
+$$
 
 Assuming only symmetric distribution, I should be among top 20%. Not bad!
 
