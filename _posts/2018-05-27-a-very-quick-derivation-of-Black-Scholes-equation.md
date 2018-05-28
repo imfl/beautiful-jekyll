@@ -1,6 +1,7 @@
 ---
 use-site-title: true
 mathjax: true
+mermaid: true
 ---
 
 **Replicates** cash flow of an option with a self-financing portfolio of an asset and a bond
