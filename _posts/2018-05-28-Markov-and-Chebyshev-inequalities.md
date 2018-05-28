@@ -92,7 +92,7 @@ which is Chebyshev's Inequality.
 
 Though just a special case of Markov's Inequality, Chebyshev's Inequality is a very useful one.
 
-虽然切比雪夫不等式仅仅是马尔可夫不等式的一个特例，但是它非常实用。
+虽然切比雪夫不等式仅仅是马尔可夫不等式的一个特例，但是它非常实用，因为它不假设任何分布。
 
 Advanced algorithm is a tough course in computer science. The average score for the final was merely $\mu = 60$, with a standard deviation $\sigma = 10$. I scored $y = 76$. How good was I?
 
