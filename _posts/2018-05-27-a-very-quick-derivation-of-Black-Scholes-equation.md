@@ -8,7 +8,7 @@ mermaid: true
 
 **Assumes** asset price is governed by a geometric Brownian motion
 
-**Uses** Ito Lemma
+**Uses** Itô's Lemma
 
 ## Notation
 
@@ -55,8 +55,7 @@ $$
 \end{align}
 $$
 
-**Step 4** $\quad$ Applies Ito Lemma to $(2)$, making use of $(1)$
-
+**Step 4** $\quad$ Applies Itô's Lemma to $(2)$, making use of $(1)$
 $$
 \begin{align}
     dV & = dV(t, S) \\
@@ -93,11 +92,16 @@ $$
 
 ## Flow
 
-```mermaid
-graph LR
-A[Christmas] -->|Get money| B(Go shopping)
-B --> C{Let me think}
-C -->|One| D[Laptop]
-C -->|Two| E[iPhone]
-C -->|Three| F[Car]
-```
+<div class="mermaid">
+graph TD
+    A[1. Price Dynamics] -.-> C[3. dV]
+    B[2. Replicating Portfolio] --self-financing--> C[3. dV]
+    B --Itô's Lemma--> D[4. dV]
+    A -.-> D
+    C --> E[5. Hedge Ratio]
+    C --> F[6. Black-Scholes Equation]
+    D --> E
+    D --> F
+    B -.->F
+    E -.-> F
+</div>
