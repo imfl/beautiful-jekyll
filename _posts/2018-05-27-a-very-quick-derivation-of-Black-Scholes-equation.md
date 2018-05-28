@@ -12,8 +12,6 @@ mermaid: true
 
 ## Notation
 
-<br>
-
 |  symbol   | stands for                                                   |
 | :-------: | ------------------------------------------------------------ |
 |    $t$    | current time (time of option pricing)                        |
