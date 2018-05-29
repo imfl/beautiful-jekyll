@@ -63,6 +63,7 @@ $$
 We don't like the requirement that $X$ be nonnegative. We want an inequality that holds for all random variables. What should we do? Variance is guaranteed to be nonnegative, but that's not a random variable. We are close.
 
 Setting $X =  (Y-EY)^2$, where $Y$ can be any random variable that has an expectation and a variance, we have
+
 $$
 Pr\bigg( (Y-EY)^2 \geq c \bigg) \leq \frac{Var(Y)}{c} \tag{3}
 $$
