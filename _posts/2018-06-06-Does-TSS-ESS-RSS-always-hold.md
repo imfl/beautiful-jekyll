@@ -57,7 +57,7 @@ I will show this is true in what follows, without explicitly solving OLS equatio
 
 > OLS chooses the parameters of a linear function by minimizing the sum of the squares of the differences between the observed and the predicted.
 
-Suppose we predict that $y_i$ can be explained linearly by feature $x_i$. We have
+Suppose we believe that true value $y_i$ can be predicted at $\hat{y_i}$ by a linear function on a feature $x_i$. We have
 
 $$
 \hat{y_i} = a + b x_i
