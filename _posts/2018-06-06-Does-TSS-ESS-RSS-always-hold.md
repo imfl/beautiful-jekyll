@@ -24,11 +24,7 @@ $$
 
 ## Interpretation
 
-Consider a group of people. Collectively, they have a mean weight $\bar{y}$. But as individuals, they must have different weights $y_i$, which differs from the mean. The total variation of $y_i$ from $\bar{y}$ is measured by $TSS$.
-
-To explain the variation, we build a model, which predicts each of their weights at $\hat{y_i}$.
-
-The variation explained by the model is measured by $ESS$. That unexplained by $RSS$.
+Consider a group of people. Collectively, they have a mean weight $\bar{y}$. But as individuals, they must have different weights $y_i$, which differs from the mean. The total variation of $y_i$ from $\bar{y}$ is measured by $TSS$. To explain the variation, we build a model, which predicts each of their weights at $\hat{y_i}$. The variation explained by the model is measured by $ESS$. That unexplained by $RSS$.
 
 ## Derivation
 
@@ -49,7 +45,14 @@ $(1)$ is not always true, because we may build a model to predict $y_i$ at $\hat
 
 ## Exploration
 
-The culprit for a false impression that $\ TSS = ESS + RSS\ $ always holds may be that it usually appears in the ordinary least squares (OLS) setting. Yes, $\text{OLS} \implies TSS = ESS + RSS$. I will show this is true in what follows, without explicitly solving OLS equations.
+The culprit for a false impression that $\ TSS = ESS + RSS\ $ always holds may be that it usually appears in the ordinary least squares (OLS) setting.
+
+Yes, 
+$$
+\text{OLS} \implies TSS = ESS + RSS
+$$
+
+I will show this is true in what follows, without explicitly solving OLS equations.
 
 > OLS chooses the parameters of a linear function by minimizing the sum of the squares of the differences between the observed and the predicted.
 
