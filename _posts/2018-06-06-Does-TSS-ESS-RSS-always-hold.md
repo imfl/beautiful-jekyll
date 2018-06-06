@@ -102,7 +102,7 @@ $$
 \end{align}
 $$
 
-In one word, so long as OLS requirements are met, formula $\ TSS = ESS + RSS\ $ will hold.
+In one word, so long as OLS requirements are met, formula $\ TSS = ESS + RSS\ $ must hold.
 
 ## Implication
 
