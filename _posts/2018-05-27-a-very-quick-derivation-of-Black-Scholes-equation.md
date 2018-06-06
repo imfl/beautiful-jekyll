@@ -4,6 +4,8 @@ mathjax: true
 mermaid: true
 ---
 
+我们只需要自融资组合和伊藤引理两件武器。
+
 **Replicates** cash flow of an option with a self-financing portfolio of an asset and a bond
 
 **Assumes** asset price is governed by a geometric Brownian motion
