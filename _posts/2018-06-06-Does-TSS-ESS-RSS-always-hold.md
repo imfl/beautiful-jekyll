@@ -48,6 +48,7 @@ $(1)$ is not always true, because we may build a model to predict $y_i$ at $\hat
 The culprit for a false impression that $\ TSS = ESS + RSS\ $ always holds may be that it usually appears in the ordinary least squares (OLS) setting.
 
 Yes, 
+
 $$
 \text{OLS} \implies TSS = ESS + RSS
 $$
