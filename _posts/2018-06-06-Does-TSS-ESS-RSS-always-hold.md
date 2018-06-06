@@ -29,7 +29,7 @@ $$
     \iff  \sum \Big( y_i^2 + \bar{y}^2 - 2 y_i \bar{y} \Big)  & = 
             \sum \bigg[ \Big( \hat{y_i}^2 + \bar{y}^2 - 2 \hat{y_i} \bar{y} \Big)
             + \Big(y_i^2 + \hat{y_i}^2 - 2 y_i \hat{y_i} \Big) \bigg] \\~\\
-    \iff \sum\big(  \hat{y_i} - \bar{y} \big) \big(  \hat{y_i} - y_i \big) & = 0
+    \iff \sum \big(  \hat{y_i} - \bar{y} \big) \big(  \hat{y_i} - y_i \big) & = 0
 \end{align}
 $$
 
@@ -46,7 +46,6 @@ $$
 $$
 
 $$
-
 \begin{align}
     & \min_{a, b} \ \sum \big( y_i -\hat{y_i} \big)^2 =  \sum \big( y_i - a - b x_i \big)^2  \\~\\
     \text{let} \qquad & f(a, b) = \sum \big( y_i - a - b x_i \big)^2 \\~\\
@@ -61,8 +60,30 @@ $$
     \left\{
         \begin{aligned}
             & \sum \big( y_i - \hat{y_i} \big) = 0 \\~\\
-            & \sum \big( y_i - \hat{y_i} \big) x_i = 0
+            & \sum x_i \big( y_i - \hat{y_i} \big) = 0
         \end{aligned}
     \right.
 \end{align}
 $$
+
+$$
+\left\{
+        \begin{aligned}
+            & \mathbf{exp} \cdot \mathbf{one} = 0 \iff \mathbf{exp} \perp \mathbf{one}  \\~\\
+            & \mathbf{exp} \cdot \mathbf{ind} = 0  \iff \mathbf{exp} \perp \mathbf{ind}
+        \end{aligned}
+    \right.
+$$
+
+$$
+\begin{align}
+    & \sum \big(  \hat{y_i} - \bar{y} \big) \big(  \hat{y_i} - y_i \big) = 0 \\~\\
+    \impliedby & \sum \big(  a + b x_i - \bar{y} \big) \big(  \hat{y_i} - y_i \big) = 0 \\~\\
+    \impliedby & \sum b x_i \big(  \hat{y_i} - y_i \big) + \sum \big(a - \bar{y} \big) \big(  \hat{y_i} - y_i \big) = 0 \\~\\
+    \impliedby & b \underbrace{\sum  x_i \big(  \hat{y_i} - y_i \big)}_{0}+ \big(a - \bar{y} \big) \underbrace{\sum \big(  \hat{y_i} - y_i \big)}_{0} = 0 
+
+\end{align}
+$$
+
+
+
