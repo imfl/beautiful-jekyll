@@ -1,6 +1,7 @@
 ---
 use-site-title: true
 mathjax: true
+mermaid: true
 ---
 
 考虑一枚不均匀的骰子。无论它如何不均匀，摇得3到6点的概率，都不可能超过期望的1/3。为什么？
