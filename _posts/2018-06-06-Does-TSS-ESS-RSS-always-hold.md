@@ -32,6 +32,8 @@ The variation explained by the model is measured by $ESS$. That unexplained by $
 
 ## Derivation
 
+Does the formula always hold? Let's see.
+
 $$
 \begin{align}
     TSS & = ESS + RSS \\~\\
@@ -43,11 +45,11 @@ $$
 \end{align}
 $$
 
-That is, $\ TSS = ESS + RSS\ $ holds if and only if $\ \sum \big(  \hat{y_i} - \bar{y} \big) \big(  \hat{y_i} - y_i \big) = 0\ $, which is not always true, because we may build a model to predict $y_i$ as wild as it can be.
+$(1)$ is not always true, because we may build a model to predict $y_i$ at $\hat{y_i}$ as wild as it can be.
 
 ## Exploration
 
-The culprit for a false impression that $\ TSS = ESS + RSS\ $ always holds may be it usually appears in the ordinary least squares (OLS) setting. Yes, $\text{OLS} \implies TSS = ESS + RSS$. I will show this is true in what follows, without explicitly solving OLS equations.
+The culprit for a false impression that $\ TSS = ESS + RSS\ $ always holds may be that it usually appears in the ordinary least squares (OLS) setting. Yes, $\text{OLS} \implies TSS = ESS + RSS$. I will show this is true in what follows, without explicitly solving OLS equations.
 
 > OLS chooses the parameters of a linear function by minimizing the sum of the squares of the differences between the observed and the predicted.
 
