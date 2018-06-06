@@ -24,7 +24,7 @@ $$
 
 ## Interpretation
 
-Consider a group of people. Collectively, they have a mean weight $\bar{y}$. But as individuals, they must have different weights $y_i$, which differs from the mean. The total variation of $y_i$ from $\bar{y}$ is measured by $TSS$. To explain the variation, we build a model, which predicts each of their weights at $\hat{y_i}$. The variation explained by the model is measured by $ESS$. That unexplained by $RSS$.
+Consider a group of people. Collectively, they have a mean weight $\bar{y}$. But as individuals, they must have different weights $y_i$, which differ from the mean. The total variation of $y_i$ from $\bar{y}$ is measured by $TSS$. To explain the variation, we build a model, which predicts each of their weights at $\hat{y_i}$. The variation explained by the model is measured by $ESS$. That unexplained by $RSS$.
 
 ## Derivation
 
