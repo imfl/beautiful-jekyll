@@ -22,7 +22,9 @@ $$
 \end{align}
 $$
 
-Consider a group of people. Collectively, they have a mean weight $\bar{y}$. But as individuals, they have different weights $y_i$. The variation of $y_i$ from $\bar{y}$ is measured by $TSS$.
+## Interpretation
+
+Consider a group of people. Collectively, they have a mean weight $\bar{y}$. But as individuals, they must have different weights $y_i$, which differs from the mean. The total variation of $y_i$ from $\bar{y}$ is measured by $TSS$.
 
 To explain the variation, we build a model, which predicts each of their weights at $\hat{y_i}$.
 
@@ -102,4 +104,4 @@ In one word, so long as OLS requirements are met, formula $\ TSS = ESS + RSS\ $ 
 
 ## Implication
 
-$R^2 \equiv 1 - \dfrac{RSS}{TSS}\ ​$ is a frequently used measure for model fit. By its name, it appears that it must be nonnegative. However, this is only true in certain circumstances (for example, OLS). Since it is perfectly possible that $RSS > TSS​$, $R^2​$ may well be negative.
+$R^2 \equiv 1 - \dfrac{RSS}{TSS}\ $ is a frequently used measure for model fit. By its name, it appears that it must be nonnegative. However, this is only true in certain circumstances (for example, OLS). Since it is perfectly possible that $RSS > TSS$, $R^2$ may well be negative.
