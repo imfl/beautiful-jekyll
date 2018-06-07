@@ -41,7 +41,7 @@ $$
 \end{align}
 $$
 
-$(1)$ is not always true, because we may build a model to predict $y_i$ at $\hat{y_i}$ as wild as it can be.
+$(1)$ is not always true, because the model may yield predictions $\{\hat{y_i}\}$ as wild as it can.
 
 ## Exploration
 
