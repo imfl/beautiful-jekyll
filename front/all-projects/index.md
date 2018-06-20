@@ -29,8 +29,6 @@ Monte Carlo, algorithms, ...
 
 ## [Python Snippets](https://github.com/imfl/python-snippets)
 
-Lazy function call, easy generation of many lagged and future values for time series, ...
-
-
+Lazy function call, easy generation of lagged and future values for time series, ...
 
 *more to come soon ...*
