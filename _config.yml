@@ -29,6 +29,9 @@ navbar-links:
     - Parallel Computing: "https://imfl.github.io/front/parallel-computing/index"
     - Derivative Pricing: "https://imfl.github.io/front/derivative-pricing/index"
     - Investment Strategies: "https://imfl.github.io/front/investment-strategies/index"
+  Snippets:
+     - C++: "https://github.com/imfl/cpp-snippets"
+     - Python: "https://github.com/imfl/python-snippets"
   Blogs: "https://imfl.github.io/blog/index"
   GitHub: "https://github.com/imfl"
 
