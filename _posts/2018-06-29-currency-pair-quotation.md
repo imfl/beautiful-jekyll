@@ -20,7 +20,7 @@ rate $\approx$ 100, between USD and JPY $\implies$ base currency = USD
 
 rate $>$ 1.0, between USD and GBP $\implies$ base currency = GBP
 
-**Once the base currency is set, there should be no controversy about the figure in the quote, no matter it is a direct or indirect quote, written in the B/P or P/B manner.**
+**Once the base currency is set, there should be no controversy about the figure in the quote, no matter it is a direct or indirect quote, written in B/P or P/B manner.**
 
 #### Example 1.3
 
@@ -56,7 +56,7 @@ in Tokyo $\implies$ direct quote
 
 直接标价法还是间接标价法，取决于报价者的角度。
 
-#### Q2: Why it is called direct / indirect quote, not the other way round?
+#### Q2: Why are they called direct / indirect quote, not the other way round?
 
 Focus on foreign currency.
 
@@ -68,7 +68,7 @@ Focus on foreign currency.
 
 - Direct quote is a *price* quote, which tells the value of a foreign currency *directly*. 
 
-- Indirect quote is a *quantity* quote, which tells the value of a foreign currency *indirectly*. 
+- Indirect quote is a *quantity* quote (for one unit of domestic currency), which tells the value of a foreign currency *indirectly*. 
 
 - 直接标价法直接标出了外币的（本币）价格。
 
@@ -76,9 +76,13 @@ Focus on foreign currency.
 
 ## Step 3: Ways to Express a Currency Pair
 
-You may have noticed that up to this point I haven't written anything like USD/JPY. There could have been no confusion at all, were it not for the fact that people in the academia and people in the markets stick to two opposite expressing manners.
+You may have noticed that up to this point I haven't written anything like USD/JPY.
 
-你可能注意到了，到目前为止，我还没有写任何像是$\dfrac{USD}{JPY}$ 这样的内容。事实上，如果不是学界和业界坚持要用两套不同的写法，这本来不会引起任何混淆。
+There could have been no confusion at all, were it not for the fact that people in the academia and people in the markets stick to two opposite expressing manners.
+
+你可能注意到了，到目前为止，我还没有写任何像是$\dfrac{USD}{JPY}$ 这样的内容。
+
+事实上，如果不是学界和业界坚持要用两套不同的写法，这本来不会引起任何混淆。
 
 The first thing to make clear is that whether to put base currency in the numerator or denominator has nothing to do with direct/indirect quote. Honestly, to me this is the chief culprit for most of the confusion. 
 
@@ -90,7 +94,7 @@ The first thing to make clear is that whether to put base currency in the numera
 
 That is, for a quote that's around 100 between USD and JPY, which is an indirect quote in New York, the market convention is to express it as USD/JPY, while in certain textbooks it may be JPY/USD.
 
-Luckily, the convention is consistent across the market. In fact, the market is so sure about this that they define base currency as the first currency that appears in the currency pair.
+Luckily, the convention is consistent across the market. In fact, the market is so sure about this that base currency is widely defined as the first currency that appears in the currency pair.
 
 也就是说，同样是报价数字为100左右的美元、日元汇率，同样（在纽约）为间接标价法，市场的写法是$\dfrac{USD}{JPY}$，而某些教材的写法却可能是$\dfrac{JPY}{USD}$。
 
