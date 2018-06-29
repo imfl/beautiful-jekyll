@@ -6,7 +6,7 @@ mathjax: true
 
 直接标价法，间接标价法，基础货币/报价货币，报价货币/基础货币 ……  我知道，无非一个是另一个的倒数，但是谁是谁呢？
 
-Direct quote, indirect quote, base currency, indirect currency, B/P, P/B, ... I know, ultimately, one is another's reciprocal. But, who is who?
+*Direct quote, indirect quote, base currency, indirect currency, B/P, P/B, ... I know, ultimately, one is another's reciprocal. But, who is who?*
 
 So many times have I been confused with the currency pair terms  when I learned economics. This time, I determine to figure it out.
 
@@ -18,9 +18,9 @@ For example, in a currency pair between USD and JPY, the quote is around 100. Yo
 
 As another example, consider USD and GBP. If the quote is more than 1, not a fraction below 1.0, then you know GBP is the base currency. (Hope it stays true that 1 British pound is more worth than 1 US dollar.)
 
-**The base currency is the always one that serves as one unit.**
+**The base currency is always the one that serves as one unit.**
 
-Once base currency is set, there should be no controversy about the figure in the quote, no matter it is a direct or indirect quote, written in the B/P or P/B manner.
+Once the base currency is set, there should be no controversy about the figure in the quote, no matter it is a direct or indirect quote, written in the B/P or P/B manner.
 
 For example, so long as USD is the base currency, the quote figure between USD and JPY must be around 100, not around 0.01.
 
@@ -89,7 +89,9 @@ $$
 
 For certain academic convention in the opposite manner, it has merit, too -- they resemble the way in physics, like $m/s$. That is, for 100 JPY/USD it presents 100 JPY for 1 USD. Consider you exchange US$ 2.5 to Japanese Yen.
 
-某些写法相反的学术习惯（即$\dfrac{\text{报价货币}}{\text{基础货币}}$）也自有它们的道理。这种写法很像是物理上面的单位，像米/秒。这样，100 $\dfrac{JPY}{USD}$意味着100日元换1美元。比如你将2.5美元换成日元：
+某些写法相反的学术习惯（即$\dfrac{\text{报价货币}}{\text{基础货币}}$）也自有它们的道理。
+
+这种写法很像是物理上面的单位，像米/秒。这样，100 $\dfrac{JPY}{USD}$意味着100日元换1美元。比如你将2.5美元换成日元：
 
 $$
 2.5 \ \text{USD} \times \ \Big[ \dfrac{\text{JPY}}{\text{USD}} \Big]_{\tfrac{P}{B}} \approx 2.5 \ \text{USD} \times  100 \ \dfrac{\text{JPY}}{\text{USD}} = 250 \ \text{JPY}
