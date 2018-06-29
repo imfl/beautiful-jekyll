@@ -84,7 +84,7 @@ Luckily, the convention is consistent across the market. In fact, the market is 
 
 好在外汇市场本身对于报价的写法是很统一的。事实上，外汇市场对于基础货币的定义就是：出现在外汇报价对中的第一种货币。
 
-#### Q3: How to Interpret the Expression?
+#### Q3: How to interpret the expression?
 
 For market convention (B/P), it is a ratio of value:
 
