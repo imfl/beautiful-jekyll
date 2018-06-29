@@ -60,7 +60,7 @@ First of all, in a foreign exchange market, the foreign currency is ultimately t
 
 - 直接标价法直接标出了外币的（本币）价格。
 
-- 间接标价法标示的是等值（单位本币的）外币的数量。
+- 间接标价法标示的是等值（单位本币的）外币的数量，间接反映了外币的价值。
 
 ## Step 3: Ways to Express a Currency Pair
 
