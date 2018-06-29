@@ -30,7 +30,7 @@ For example, so long as USD is the base currency, the quote figure between USD a
 
 例如，只要美元是基础货币，那么不论怎么标价、怎么写，美元与日元的汇率报价数字一定是100左右，而不是0.01左右。
 
-### What is the other currency called, besides the base currency?
+### Q1: What is the other currency called, besides the base currency?
 
 Either the price currency, or the quote currency, or, simply, the counter currency.
 
@@ -50,7 +50,7 @@ Consider a quote between USD and JPY that is around 100. The base currency is US
 
 同样是数字为100左右、在美元和日元之间的汇率，在纽约，是间接标价（基础货币是本币，即美元），东京看来，就是直接标价（基础货币是外币，即美元）。
 
-### Why it is called direct / indirect quote, not the other way round?
+### Q2: Why it is called direct / indirect quote, not the other way round?
 
 First of all, in a foreign exchange market, the foreign currency is ultimately the object that we care about.
 
@@ -59,7 +59,7 @@ First of all, in a foreign exchange market, the foreign currency is ultimately t
 - 直接标价法直接标出了外币的（本币）价格。
 - 间接标价法标示的是等值（单位本币的）外币的数量。
 
-## Step 3: How to Express the Currency Pair
+## Step 3: Ways to Express a Currency Pair
 
 You may have noticed that up to this point I haven't written anything like USD/JPY. There could have been no confusion at all, were it not for the fact that people in the academia and people in the markets stick to two opposite expressing manners.
 
@@ -77,7 +77,7 @@ That is, for a quote that's around 100 between USD and JPY, the market conventio
 
 也就是说，如果是报价数字为100左右的美元、日元汇率，市场的写法是$\dfrac{USD}{JPY}$，而某些教材的写法却可能是$\dfrac{JPY}{USD}$。外汇市场本身，对于报价的写法是很统一的。事实上，外汇市场对于基础货币的定义就是：出现在外汇报价对中的第一种货币。
 
-### How to Interpret?
+### Q3: How to Interpret the Expression?
 
 For market convention (B/P), it is a ratio of value
 
