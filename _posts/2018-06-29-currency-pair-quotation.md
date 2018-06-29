@@ -110,11 +110,11 @@ $$
 \Big[ \dfrac{\text{USD}}{\text{JPY}} \Big]_{\tfrac{B}{P}} = \dfrac{\text{Value of 1 USD}}{\text{Value of 1 JPY}} \approx 100
 $$
 
-For certain academic convention in the opposite manner, it has merit, too -- it resembles the way in physics, like $m/s$, so that it may mingle with standalone currency units. Say you exchange US$ 2.5 to Japanese Yen:
+For certain academic convention in the opposite manner, it has merit, too -- it resembles the way in physics, like $m/s$, so that currency pairs may mingle with standalone currency units. Say you exchange US$ 2.5 to Japanese Yen:
 
 学界某些相反的写法（即$\dfrac{\text{报价货币}}{\text{基础货币}}$）也自有它们的道理。
 
-这种写法很像是物理上面的单位，像米/秒，这样它们就能与货币单位混合使用。例如你将2.5美元换成日元：
+这种写法很像是物理上面的单位，像米/秒。这样它们就能与货币单位混合使用。例如你将2.5美元换成日元：
 
 $$
 2.5 \ \text{USD} \times \ \Big[ \dfrac{\text{JPY}}{\text{USD}} \Big]_{\tfrac{P}{B}} \approx 2.5 \ \text{USD} \times  100 \ \dfrac{\text{JPY}}{\text{USD}} = 250 \ \text{JPY}
