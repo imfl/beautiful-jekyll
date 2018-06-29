@@ -55,8 +55,11 @@ Consider a quote between USD and JPY that is around 100. The base currency is US
 First of all, in a foreign exchange market, the foreign currency is ultimately the object that we care about.
 
 - Direct quote is a *price* quote of the foreign currency. Consider in Tokyo, a quote of 100 between USD and JPY means that the price of 1 US dollar is 100 yen. Larger the figure, more expensive the foreign currency. So the quote directly tells the value of a foreign currency.
+
 - Indirect quote is a *quantity* quote of the foreign currency.  Consider in New York, a quote of 100 between USD and JPY means that 100 units of JPY is equal in value to 1 unit of USD. Larger the figure, cheaper the foreign currency. So the quote indirectly tells the value of a foreign currency.
+
 - 直接标价法直接标出了外币的（本币）价格。
+
 - 间接标价法标示的是等值（单位本币的）外币的数量。
 
 ## Step 3: Ways to Express a Currency Pair
