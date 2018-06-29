@@ -86,7 +86,7 @@ Luckily, the convention is consistent across the market. In fact, the market is 
 
 #### Q3: How to Interpret the Expression?
 
-For market convention (B/P), it is a ratio of value
+For market convention (B/P), it is a ratio of value:
 
 市场的写法（即$\dfrac{\text{基础货币}}{\text{报价货币}}$）是很便于理解的：
 
@@ -94,7 +94,7 @@ $$
 \Big[ \dfrac{\text{USD}}{\text{JPY}} \Big]_{\tfrac{B}{P}} = \dfrac{\text{Value of 1 USD}}{\text{Value of 1 JPY}} \approx 100
 $$
 
-For certain academic convention in the opposite manner, it has merit, too -- they resemble the way in physics, like $m/s$. That is, for 100 JPY/USD it presents 100 JPY for 1 USD. Consider you exchange US$ 2.5 to Japanese Yen.
+For certain academic convention in the opposite manner, it has merit, too -- they resemble the way in physics, like $m/s$. That is, for 100 JPY/USD it presents 100 JPY for 1 USD. Say you exchange US$ 2.5 to Japanese Yen:
 
 某些写法相反的学术习惯（即$\dfrac{\text{报价货币}}{\text{基础货币}}$）也自有它们的道理。
 
