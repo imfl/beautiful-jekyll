@@ -44,6 +44,7 @@ Either *price currency*, or *quote currency*, or, simply, *counter currency*.
 | -------------------------------------- | --------------------------------------- |
 | uses foreign currency as base currency | uses domestic currency as base currency |
 
+
 #### Example 2.1
 
 rate $\approx$ 100, between USD and JPY
