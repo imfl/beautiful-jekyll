@@ -60,11 +60,11 @@ in Tokyo $\implies$ direct quote
 
 Focus on foreign currency.
 
-|                                  | direct quote               | indirect quote               |
-| -------------------------------- | -------------------------- | ---------------------------- |
-| **shows**                        | price of foreign currency  | quantity of foreign currency |
-| **larger quote means**           | expensive foreign currency | cheap foreign currency       |
-| **tells foreign currency value** | directly                   | indirectly                   |
+|                                  | direct quote                    | indirect quote               |
+| -------------------------------- | ------------------------------- | ---------------------------- |
+| **shows**                        | price of foreign currency       | quantity of foreign currency |
+| **larger value means**           | more expensive foreign currency | cheaper foreign currency     |
+| **tells foreign currency value** | directly                        | indirectly                   |
 
 - Direct quote is a *price* quote, which tells the value of a foreign currency *directly*. 
 
