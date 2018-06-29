@@ -12,11 +12,11 @@ mathjax: true
 
 The first step is figure out which currency is the *base currency*, or the currency that stays as one unit in the quote.
 
-###### Example 1.1
+#### Example 1.1
 
 rate $\approx$100, between USD and JPY $\implies$ base currency = USD
 
-###### Example 1.2
+#### Example 1.2
 
 rate $>$ 1.0, between USD and GBP $\implies$ base currency = GBP
 
@@ -24,7 +24,7 @@ rate $>$ 1.0, between USD and GBP $\implies$ base currency = GBP
 
 **Once the base currency is set, there should be no controversy about the figure in the quote, no matter it is a direct or indirect quote, written in the B/P or P/B manner.**
 
-###### Example 1.3
+#### Example 1.3
 
 base currency = USD, between USD and JPY $\implies$ rate $\approx$ 100
 
@@ -46,7 +46,7 @@ Either *price currency*, or *quote currency*, or, simply, *counter currency*.
 | -------------------------------------- | --------------------------------------- |
 | uses foreign currency as base currency | uses domestic currency as base currency |
 
-###### Example 2.1
+#### Example 2.1
 
 rate $\approx$ 100, between USD and JPY
 
