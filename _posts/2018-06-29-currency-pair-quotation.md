@@ -80,7 +80,9 @@ That is, for a quote that's around 100 between USD and JPY, the market conventio
 
 Luckily, the convention is consistent across the market. In fact, the market is so sure about this that they define base currency as the first currency that appears in the currency pair.
 
-也就是说，同样是报价数字为100左右的美元、日元汇率，市场的写法是$\dfrac{USD}{JPY}$，而某些教材的写法却可能是$\dfrac{JPY}{USD}$。外汇市场本身，对于报价的写法是很统一的。事实上，外汇市场对于基础货币的定义就是：出现在外汇报价对中的第一种货币。
+也就是说，同样是报价数字为100左右的美元、日元汇率，市场的写法是$\dfrac{USD}{JPY}$，而某些教材的写法却可能是$\dfrac{JPY}{USD}$。
+
+好在外汇市场本身对于报价的写法是很统一的。事实上，外汇市场对于基础货币的定义就是：出现在外汇报价对中的第一种货币。
 
 #### Q3: How to Interpret the Expression?
 
