@@ -10,7 +10,7 @@ mathjax: true
 
 ## Always Step 1: Figure out the Base Currency
 
-The first step is figure out which currency is the *base currency*, or the currency that stays as one unit in the quote.
+The first step is always to figure out which currency is the *base currency*, or the currency that stays as one unit in the quote.
 
 #### Example 1.1
 
