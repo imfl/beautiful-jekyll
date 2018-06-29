@@ -70,15 +70,17 @@ You may have noticed that up to this point I haven't written anything like USD/J
 
 The first thing to make clear is that whether to put base currency in the numerator or denominator has nothing to do with direct/indirect quote. Honestly, to me this is the chief culprit for most of the confusion. 
 
-首先要弄明白，把基础货币放在分子还是分母的位置，和直接或是间接标价法无关。实话说，个人认为，这是引起外汇报价混淆的最大来源。
+首先要弄明白，把基础货币放在分子还是分母的位置，和直接或是间接标价法无关。实话说，个人认为，这是引起误解和混淆的最大来源。
 
 | Market Convention<br />市场习惯                              | (Certain) Academic Convention (like in CFA textbooks) <br />（某些）学术习惯（例如CFA教材） |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | $\dfrac{B}{P}$ or $\dfrac{\text{Base Currency}}{\text{Price Currency}}$ | $\dfrac{P}{B}$ or $\dfrac{\text{Price Currency}}{\text{Base Currency}}$ |
 
-That is, for a quote that's around 100 between USD and JPY, the market convention is to express it as USD/JPY, while in certain textbooks it may be JPY/USD. In fact, the market is so sure about this convention that they define base currency as the first currency in the currency pair.
+That is, for a quote that's around 100 between USD and JPY, the market convention is to express it as USD/JPY, while in certain textbooks it may be JPY/USD.
 
-也就是说，如果是报价数字为100左右的美元、日元汇率，市场的写法是$\dfrac{USD}{JPY}$，而某些教材的写法却可能是$\dfrac{JPY}{USD}$。外汇市场本身，对于报价的写法是很统一的。事实上，外汇市场对于基础货币的定义就是：出现在外汇报价对中的第一种货币。
+Luckily, the convention is consistent across the market. In fact, the market is so sure about this that they define base currency as the first currency that appears in the currency pair.
+
+也就是说，同样是报价数字为100左右的美元、日元汇率，市场的写法是$\dfrac{USD}{JPY}$，而某些教材的写法却可能是$\dfrac{JPY}{USD}$。外汇市场本身，对于报价的写法是很统一的。事实上，外汇市场对于基础货币的定义就是：出现在外汇报价对中的第一种货币。
 
 #### Q3: How to Interpret the Expression?
 
