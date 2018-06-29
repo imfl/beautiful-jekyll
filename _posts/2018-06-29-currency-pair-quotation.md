@@ -10,7 +10,7 @@ mathjax: true
 
 ## Always Step 1: Figure out the Base Currency
 
-The first step is always to figure out which currency is the *base currency*, or the currency that stays as one unit in the quote.
+The first step is always to figure out which currency is the *base currency*, or the currency that serves as one unit in the quote.
 
 #### Example 1.1
 
@@ -19,8 +19,6 @@ rate $\approx$ 100, between USD and JPY $\implies$ base currency = USD
 #### Example 1.2
 
 rate $>$ 1.0, between USD and GBP $\implies$ base currency = GBP
-
-**The base currency is always the one that serves as one unit.**
 
 **Once the base currency is set, there should be no controversy about the figure in the quote, no matter it is a direct or indirect quote, written in the B/P or P/B manner.**
 
