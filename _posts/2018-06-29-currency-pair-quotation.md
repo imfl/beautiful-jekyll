@@ -14,7 +14,7 @@ The first step is always to figure out which currency is the *base currency*, or
 
 #### Example 1.1
 
-rate $\approx$100, between USD and JPY $\implies$ base currency = USD
+rate $\approx$ 100, between USD and JPY $\implies$ base currency = USD
 
 #### Example 1.2
 
@@ -26,7 +26,7 @@ rate $>$ 1.0, between USD and GBP $\implies$ base currency = GBP
 
 #### Example 1.3
 
-base currency = USD, between USD and JPY $\implies$ rate $\approx$ 100
+base currency = USD, between USD and JPY $\implies$ rate $\approx$ 100 (not around 0.01 !)
 
 确定基础货币永远是弄清汇率报价的第一步，一旦确定了哪个货币是基础货币，对于报价的数字将不会有任何争议。
 
