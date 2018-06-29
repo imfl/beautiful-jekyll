@@ -38,12 +38,12 @@ Either *price currency*, or *quote currency*, or, simply, *counter currency*.
 
 ## Step 2: Direct Quote or Indirect Quote
 
-**Whether it is direct quote or indirect quote largely depends on where you are.**
 
 | Direct Quote                           | Indirect Quote                          |
 | -------------------------------------- | --------------------------------------- |
 | uses foreign currency as base currency | uses domestic currency as base currency |
 
+**Whether it is direct quote or indirect quote largely depends on where you are.**
 
 #### Example 2.1
 
