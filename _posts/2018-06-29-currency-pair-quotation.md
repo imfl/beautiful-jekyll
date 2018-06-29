@@ -8,8 +8,6 @@ mathjax: true
 
 *Direct quote, indirect quote, base currency, indirect currency, B/P, P/B, ... I know, ultimately, one is another's reciprocal. But, who is who?*
 
-So many times have I been confused with the currency pair terms  when I learned economics. This time, I determine to figure it out.
-
 ## Always Step 1: Figure out the Base Currency
 
 The first step is figure out which currency is the *base currency*, or the currency that stays as one unit in the quote.
