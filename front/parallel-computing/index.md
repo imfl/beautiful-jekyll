@@ -19,16 +19,16 @@ In this project I parallelize the Bellman-Ford algorithm so that the computation
 
 ### MPI
 
-The C++ code is [here](https://github.com/imfl/parallel-computing/blob/master/bf-mpi.cpp) (GitHub).
+The C++ code is [here](https://github.com/imfl/parallel-computing/blob/master/bellman-ford/bf-mpi.cpp) (GitHub).
 
 ### OMP
 
-The C++ code is [here](https://github.com/imfl/parallel-computing/blob/master/bf-omp.cpp) (GitHub).
+The C++ code is [here](https://github.com/imfl/parallel-computing/blob/master/bellman-ford/bf-omp.cpp) (GitHub).
 
 ### CUDA
 
-The C++ (CUDA) code is [here](https://github.com/imfl/parallel-computing/blob/master/bf-cuda.cu) (GitHub).
+The C++ (CUDA) code is [here](https://github.com/imfl/parallel-computing/blob/master/bellman-ford/bf-cuda.cu) (GitHub).
 
-### More Information 
+### More Information
 
 This project serves as a series of assignments that I did for *COMP 5112 Parallel Computing*, a postgraduate-level course that I took at the Department of Computer Science and Engineering at HKUST in Spring 2017.
